@@ -7,7 +7,7 @@ This is an abridged and version of OpenGNT 3.0.
 
 The entire text of OGNTa is released under the following license:
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>  
 OGNTa by Andley Chang is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 ## Attribution:
