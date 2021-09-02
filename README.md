@@ -2,7 +2,26 @@
 
 This is an abridged and updated version of OpenGNT Version 3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)
 
----
+## Format Changes
+
+- Abridged to minimum 
+
+| OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
+|----|--|---|---|----|--------|---|------|--------|
+| 1 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
+
+- sdcdcs
+
+| OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
+|----|--|---|---|----|----|--|----|-----|
+| 25627 | 41 | 11 | 9 | <mark>¬</mark>Ὡσαννά | ὡσαννά | PRT | Hosanna! | Hosanna!” |
+| 34242 | 42 | 6 | 25 | ¬Οὐαί, | οὐαί | INJ | woe! | Woe to |
+
+## Content Modifications
+- 
+
+
+-
 ## License:
 
 The entire text of OGNTa is released under the following license:
