@@ -2,21 +2,25 @@
 
 This is an abridged and updated version of OpenGNT Version 3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)
 
-## Changes made to OpenGNT3.3
+## Format changes
 
--  to minimum 
+-  OGNT3.3 abridged to the following tab-separated columns. 
 
-| OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
+| OGNTsort | Book | Chapter | Verse | OGNT | lemma | rmac | TBESG | IT |
 |----|--|---|---|----|--------|---|------|--------|
 | 000001 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
 
-- sdcdcs
+- PMpWord/PMfWord Incorporate into OGNT column.
 
-| OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
+| OGNTsort | Book | Chapter | Verse | OGNT | lemma | rmac | TBESG | IT |
 |----|--|---|---|----|----|--|----|-----|
 | 000382|40|1|23|<mark>**↲**</mark>Ἰδοὺ|ἰδού|INJ|look!|Behold,|
 |029616|41|16|20|σημείων<mark>**.⟧¶**</mark>|σημεῖον|N-GPN|sign|signs.|
 |029617|41|16|20|<mark>**⟦**</mark>πάντα|πᾶς|A-APN|all|all|
+
+## Content changes
+- 
+
 
 
 ---
