@@ -2,33 +2,33 @@
 
 This is an abridged and updated version of OpenGNT Version 3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)
 
-## Format Changes
+## Changes made to OpenGNT3.3
 
-- Abridged to minimum 
+-  to minimum 
 
 | OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
 |----|--|---|---|----|--------|---|------|--------|
-| 1 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
+| 000001 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
 
 - sdcdcs
 
 | OGNTsort | Book | Chapter | Verse | OGNTa | lexeme | rmac | TBESG | IT |
 |----|--|---|---|----|----|--|----|-----|
-| 25627 | 41 | 11 | 9 | <mark>¬</mark>Ὡσαννά | ὡσαννά | PRT | Hosanna! | Hosanna!” |
-| 34242 | 42 | 6 | 25 | ¬Οὐαί, | οὐαί | INJ | woe! | Woe to |
-
-## Content Modifications
-- 
+| 000382|40|1|23|<mark>**↲**</mark>Ἰδοὺ|ἰδού|INJ|look!|Behold,|
+|029616|41|16|20|σημείων<mark>**.⟧¶**</mark>|σημεῖον|N-GPN|sign|signs.|
+|029617|41|16|20|<mark>**⟦**</mark>πάντα|πᾶς|A-APN|all|all|
 
 
--
+---
+
 ## License:
 
 The entire text of OGNTa is released under the following license:
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">OGNTa</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Andley" property="cc:attributionName" rel="cc:attributionURL">Andley Chang</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">OGNTa is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
+---
 
 ## Attribution:
 
