@@ -4,24 +4,35 @@ This is an abridged and updated version of OpenGNT Version 3 [Base Text](https:/
 
 ## Format changes
 
--  OGNT3.3 abridged to the following tab-separated columns. 
+-  OGNT3.3 abridged to the following tab-separated columns:
+   -  OGNTsort = sort numbers of all words of the base text of OGNT.
+   -  Book = Book number, ranging from 40 to 66.
+   -  Chapter = Chapter number.
+   -  Verse = verse number.
+   -  OGNT = Greek word of OGNT in accented form.
+   -  Lemma = Greek word of OGNT in lexical form.
+   -  RMAC = Robinson's Morphological Analysis Codes.
+   -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
+   -  IT = context-sensitive glossess (from Berean Interlinear Bible)
 
-| OGNTsort | Book | Chapter | Verse | OGNT | lemma | rmac | TBESG | IT |
+
+| OGNTsort | Book | Chapter | Verse | OGNT | Lemma | RMAC | TBESG | IT |
 |----|--|---|---|----|--------|---|------|--------|
 | 000001 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
 
 - PMpWord/PMfWord Incorporate into OGNT column.
+  - PMpWord = punctuation mark(s) preceding the main word.
+  - PMfWord = punctuation mark(s) following the main word.
 
-| OGNTsort | Book | Chapter | Verse | OGNT | lemma | rmac | TBESG | IT |
+| OGNTsort | Book | Chapter | Verse | OGNT | Lemma | RMAC | TBESG | IT |
 |----|--|---|---|----|----|--|----|-----|
 | 000382|40|1|23|<mark>**↲**</mark>Ἰδοὺ|ἰδού|INJ|look!|Behold,|
 |029616|41|16|20|σημείων<mark>**.⟧¶**</mark>|σημεῖον|N-GPN|sign|signs.|
 |029617|41|16|20|<mark>**⟦**</mark>πάντα|πᾶς|A-APN|all|all|
 
 ## Content changes
-- 
-
-
+- sdcsdc
+  - scsdc
 
 ---
 
