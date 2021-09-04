@@ -1,6 +1,6 @@
 # OGNTa (OpenGNT Abridged)
 
-This is an abridged and updated version of OpenGNT Version 3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)
+This is an abridged and updated version of OpenGNT Version 3 [OGNT 3.3 Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)
 
 ## Format changes
 
@@ -20,7 +20,7 @@ This is an abridged and updated version of OpenGNT Version 3 [Base Text](https:/
 |----|--|---|---|----|--------|---|------|--------|
 | 000001 | 40 | 1 | 1 | Βίβλος | βίβλος | N-NSF | book | [The] book |
 
-- PMpWord/PMfWord Incorporate into OGNT column.
+- PMpWord/PMfWord incorporated into OGNT column.
   - PMpWord = punctuation mark(s) preceding the main word.
   - PMfWord = punctuation mark(s) following the main word.
 
