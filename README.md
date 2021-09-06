@@ -31,8 +31,7 @@ This is an abridged and updated version of OpenGNT Version 3 [OGNT 3.3 Base Text
 - `018408	41	1	5	Ἰουδαία	Ἰουδαία	N-NSF-L	Judea	of Judea		` ⇒ `A-NSF-L`
 - `044656	42	19	21	αὐστηρὸς	αὐστηρός	P-NSM	severe	harsh		` ⇒ `A-NSM`
 - `044681	42	19	22	αὐστηρός	αὐστηρός	P-NSM	severe	harsh		` ⇒ `A-NSM`
-- `qqq` is a dood `aaa`
-
+- 
 
 ---
 
