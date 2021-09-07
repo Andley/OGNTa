@@ -1,0 +1,10 @@
+OGNTsort	Book	Chapter	Verse	OGNT	lexeme	rmac	TBESG	IT	PMpWord	PMfWord
+000001	40	1	1	Βίβλος	βίβλος	N-NSF	book	[The] book		
+000002	40	1	1	γενέσεως	γένεσις	N-GSF	origin	of [the] genealogy		
+000003	40	1	1	Ἰησοῦ	Ἰησοῦς	N-GSM-P	Jesus/Joshua	of Jesus		
+000004	40	1	1	Χριστοῦ	Χριστός	N-GSM-T	Christ	Christ,		
+000005	40	1	1	υἱοῦ	υἱός	N-GSM	son	son		
+000006	40	1	1	Δαυὶδ	Δαυείδ, Δαυίδ, Δαβίδ	N-GSM-P	David	of David,		
+000007	40	1	1	υἱοῦ	υἱός	N-GSM	son	son		
+000008	40	1	1	Ἀβραάμ	Ἀβραάμ	N-GSM-P	Abraham	of Abraham:		.¶
+000009	40	1	2	Ἀβραὰμ	Ἀβραάμ	N-NSM-P	Abraham	Abraham		

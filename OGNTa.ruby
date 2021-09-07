@@ -1,0 +1,10 @@
+<rt>Book Chapter:Verse</rt> <RUBY><ruby><ruby>PMpWordOGNTPMfWord<rt>TBESG</rt></ruby><rt>lexeme</rt></ruby><rt>rmac</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>Βίβλος<rt>book</rt></ruby><rt>βίβλος</rt></ruby><rt>N-NSF</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>γενέσεως<rt>origin</rt></ruby><rt>γένεσις</rt></ruby><rt>N-GSF</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>Ἰησοῦ<rt>Jesus/Joshua</rt></ruby><rt>Ἰησοῦς</rt></ruby><rt>N-GSM-P</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>Χριστοῦ<rt>Christ</rt></ruby><rt>Χριστός</rt></ruby><rt>N-GSM-T</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>υἱοῦ<rt>son</rt></ruby><rt>υἱός</rt></ruby><rt>N-GSM</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>Δαυὶδ<rt>David</rt></ruby><rt>Δαυείδ, Δαυίδ, Δαβίδ</rt></ruby><rt>N-GSM-P</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>υἱοῦ<rt>son</rt></ruby><rt>υἱός</rt></ruby><rt>N-GSM</rt></RUBY>
+<rt>40 1:1</rt> <RUBY><ruby><ruby>Ἀβραάμ.¶<rt>Abraham</rt></ruby><rt>Ἀβραάμ</rt></ruby><rt>N-GSM-P</rt></RUBY>
+<rt>40 1:2</rt> <RUBY><ruby><ruby>Ἀβραὰμ<rt>Abraham</rt></ruby><rt>Ἀβραάμ</rt></ruby><rt>N-NSM-P</rt></RUBY>
