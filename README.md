@@ -4,30 +4,26 @@ This is an abridged and updated version of OpenGNT Version 3 [OGNT 3.3 Base Text
 
 ## Structure changes
 
--  OGNT3.3 abridged to the following tab-separated columns:
-   -  OGNTsort = sort numbers of all words of the base text of OGNT.
-   -  Book-Chapter:Verse = scripture reference.
-   -  PMpWord-OGNT-PMfWord = OGNT and punctuation marks.
-      - PMpWord = punctuation mark(s) preceding the main word.
-        - [[ changed to ⟦
-        - ]] changed to ⟧
-      - OGNT = Greek word of OGNT in accented form.
-      - PMfWord = punctuation mark(s) following the main word.
-   -  lexeme = Greek word of OGNT in lexical form.
-   -  rmac = Robinson's Morphological Analysis Codes.
-   -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
-   -  IT = context-sensitive glossess (from Berean Interlinear Bible)
+OGNT3.3 abridged to the following tab-separated columns:
+-  OGNTsort = sort numbers of all words of the base text of OGNT.
+-  Book-Chapter:Verse = scripture reference.
+-  PMpWord-OGNT-PMfWord = OGNT and punctuation marks.
+   - PMpWord = punctuation mark(s) preceding the main word.
+     - [[ changed to ⟦
+     - ]] changed to ⟧
+	- OGNT = Greek word of OGNT in accented form.
+	- PMfWord = punctuation mark(s) following the main word.
+-  lexeme = Greek word of OGNT in lexical form.
+-  rmac = Robinson's Morphological Analysis Codes.
+-  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
+-  IT = context-sensitive glossess (from Berean Interlinear Bible)
 
-| OGNTsort | Book-Chapter:Verse | PMpWord OGNTa PMfWord | lexeme               | rmac    | TBESG        | IT                 |
-|----------|--------------------|-----------------------|----------------------|---------|--------------|--------------------|
-| 000001   | 40-1:1             | Βίβλος                | βίβλος               | N-NSF   | book         | [The] book         |
-| 000002   | 40-1:1             | γενέσεως              | γένεσις              | N-GSF   | origin       | of [the] genealogy |
-| 000003   | 40-1:1             | Ἰησοῦ                 | Ἰησοῦς               | N-GSM-P | Jesus/Joshua | of Jesus           |
-| 000004   | 40-1:1             | Χριστοῦ               | Χριστός              | N-GSM-T | Christ       | Christ,            |
-| 000005   | 40-1:1             | υἱοῦ                  | υἱός                 | N-GSM   | son          | son                |
-| 000006   | 40-1:1             | Δαυὶδ                 | Δαυείδ, Δαυίδ, Δαβίδ | N-GSM-P | David        | of David,          |
-| 000007   | 40-1:1             | υἱοῦ                  | υἱός                 | N-GSM   | son          | son                |
-| 000008   | 40-1:1             | Ἀβραάμ . ¶            | Ἀβραάμ               | N-GSM-P | Abraham      | of Abraham:        |
+
+| OGNTsort | Book-Chapter:Verse | PMpWord-OGNTa-PMfWord | lexeme | rmac  | TBESG  | IT |
+|----------|--------------------|-----------------------|--------|-------|--------|----|
+| 000001 | Mat 1:1 | Βίβλος  | βίβλος | N-NSF | book | [The] book |
+| 029616	| Mar 16:20	| σημείων . ⟧ ¶	| σημεῖον	| N-GPN	| sign	| signs.|
+| 029617	| Mar 16:20	| ⟦ πάντα	| πᾶς	| A-APN	| all	| all |
 
 
 
