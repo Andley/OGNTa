@@ -49,8 +49,8 @@ for ol in Lines:
 		# -------------- insert section break
 		if (re.match("¬.*",x[2])): f.write("<hr>")
 		# --------------
-		ol = re.sub("(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\n", r" <RUBY><ruby><ruby>\3<rt>\7</rt></ruby><rt>\4</rt></ruby><rt>\5</rt></RUBY>", ol)
-		f.write(ol)
+		x[6] = re.sub("\n","",x[6])
+		f.write(" <RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# ------------- insert paragraph break
 		if (re.match(".*¶$",x[2])): f.write("<pre></pre>")
 
