@@ -2,7 +2,7 @@
 
 import re
 
-inputFile = "OGNTa.txt"
+inputFile = "OGNTa-Marked.txt"
 outputFile = "OGNTa-Ruby.nt"
 
 # loading data
