@@ -1,13 +1,8 @@
 # OGNTa (OpenGNT Abridged)
 
-This is an abridged and updated version of OpenGNT Version 3 [OGNT 3.3 Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip).
+This is an abridged and updated version of OpenGNT [OGNT 3.3 Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip).
 
-## Files
-- OpenGNT_version3_3.csv = source file from OpenGNT.
-- OGNTa-trimmed.txt = data trimmed from the source
-- **OGNTa.txt = the primary data file**, abridged and updated from the trimmed data.
-- OGNT-Marked.txt = adding verbal(verbs/participles/infinitives) emphasis for RUBY rendering.
-- OGNTa-Ruby.nt = converted to TheWord format for easier access.
+**OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
 ## Structure Changes
 
@@ -31,8 +26,6 @@ OGNT3.3 abridged to the following tab-separated columns:
 | 000001 | Mat 1:1 | Βίβλος  | βίβλος | N-NSF | book | [The] book |
 | 029616	| Mar 16:20	| σημείων . ⟧ ¶	| σημεῖον	| N-GPN	| sign	| signs.|
 | 029617	| Mar 16:20	| ⟦ πάντα	| πᾶς	| A-APN	| all	| all |
-
-
 
 ## Content Changes
 - OGNTsort	reference	Greek :	`rmac-old`	⇒	`rmac-new`
@@ -94,6 +87,9 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 075568	Act 16:37	ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 079686	Act 23:5	Ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 044497	Luk 19:11	ἐγγὺς :	`PREP`	⇒	`ADV`
+
+
+
 
 ---
 
