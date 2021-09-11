@@ -4,7 +4,8 @@ This is an abridged and updated version of OpenGNT Version 3 [OGNT 3.3 Base Text
 
 ## Files
 - OpenGNT_version3_3.csv = source file from OpenGNT.
-- OGNTa.txt = the primary data file, abridged and updated from the source.
+- OGNTa-trimmed.txt = data trimmed from the source
+- **OGNTa.txt = the primary data file**, abridged and updated from the trimmed data.
 - OGNT-Marked.txt = adding verbal(verbs/participles/infinitives) emphasis for RUBY rendering.
 - OGNTa-Ruby.nt = converted to TheWord format for easier access.
 
@@ -33,23 +34,33 @@ OGNT3.3 abridged to the following tab-separated columns:
 
 
 
-## Content Updates
-- `018408	41-1:5	Ἰουδαία	N-NSF-L` ⇒ `A-NSF-L`
-- `044656	42-19:21	αὐστηρὸς	P-NSM` ⇒ `A-NSM`
-- `044681	42-19:22	αὐστηρός	P-NSM` ⇒ `A-NSM`
-- 
+## Content Changes
+- OGNTsort	reference	Greek:	`'rmac-old`	⇒	`rmac-new`
+- 001339	Mat 4:7	Ἔφη:	`V-IAI-3S`	⇒	`V-I|AAI-3S`
+- 001446	Mat 4:15	¬Γῆ:	`N-NSF`	⇒	`N-N|VSF`
+- 001449	Mat 4:15	γῆ:	`N-NSF`	⇒	`N-N|VSF`
+- 001456	Mat 4:15	¬Γαλιλαία:	`N-NSF-L`	⇒	`N-N|VSF-L`
+- 002311	Mat 5:37	τούτων:	`D-GPN`	⇒	`D-GPN|M`
+- 002313	Mat 5:37	τοῦ:	`T-GSM`	⇒	`T-GSM|N`
+- 002314	Mat 5:37	πονηροῦ:	`A-GSM`	⇒	`A-GSM|N`
+- 002332	Mat 5:39	τῷ:	`T-DSN`	⇒	`T-DSN|M`
+- 002729	Mat 6:13	τοῦ:	`T-GSN`	⇒	`T-GSM|N`
+- 018408	Mar 1:5	Ἰουδαία:	`N-NSF-L`	⇒	`A-NSF-L`
+- 044656	Luk 19:21	αὐστηρὸς:	`P-NSM`	⇒	`A-NSM`
+- 044681	Luk 19:22	αὐστηρός:	`P-NSM`	⇒	`A-NSM`
 
 ---
 
 ## License :
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">OGNTa Project by Andley Chang is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/eliranwong/OpenGNT" rel="dct:source">https://github.com/eliranwong/OpenGNT</a>.
 
 ---
 
 ## Attribution :
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Greek New Testament Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://marvel.bible" property="cc:attributionName" rel="cc:attributionURL">Eliran Wong</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/eliranwong/OpenGNT" rel="dct:source">https://github.com/eliranwong/OpenGNT</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Greek New Testament Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://marvel.bible" property="cc:attributionName" rel="cc:attributionURL">Eliran Wong</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 
 
