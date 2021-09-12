@@ -28,7 +28,15 @@ OGNT3.3 abridged to the following tab-separated columns:
 | 029617   | Mar 16:20 | ⟦ πάντα | πᾶς	| A-APN	| all | all |
 
 ## Content Changes
-- OGNTsort	reference	Greek :	`rmac-old`	⇒	`rmac-new`
+OGNTsort	reference	Greek :	`rmac-old`	⇒	`rmac-new`
+
+### rmac corrections
+- 018408	Mar 1:5	Ἰουδαία :	`N-NSF-L`	⇒	`A-NSF-L`
+- 044497	Luk 19:11	ἐγγὺς :	`PREP`	⇒	`ADV`
+- 044656	Luk 19:21	αὐστηρὸς :	`P-NSM`	⇒	`A-NSM`
+- 044681	Luk 19:22	αὐστηρός :	`P-NSM`	⇒	`A-NSM`
+
+### rmac enhancements
 - 001339	Mat 4:7	Ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 001446	Mat 4:15	¬Γῆ :	`N-NSF`	⇒	`N-N|VSF`
 - 001449	Mat 4:15	γῆ :	`N-NSF`	⇒	`N-N|VSF`
@@ -38,9 +46,6 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 002314	Mat 5:37	πονηροῦ :	`A-GSM`	⇒	`A-GSM|N`
 - 002332	Mat 5:39	τῷ :	`T-DSN`	⇒	`T-DSN|M`
 - 002729	Mat 6:13	τοῦ :	`T-GSN`	⇒	`T-GSM|N`
-- 018408	Mar 1:5	Ἰουδαία :	`N-NSF-L`	⇒	`A-NSF-L`
-- 044656	Luk 19:21	αὐστηρὸς :	`P-NSM`	⇒	`A-NSM`
-- 044681	Luk 19:22	αὐστηρός :	`P-NSM`	⇒	`A-NSM`
 - 07490	Mat 13:28	ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 010230	Mat 17:26	ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 011277	Mat 19:21	Ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
@@ -86,7 +91,6 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 071398	Act 10:28	ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 075568	Act 16:37	ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
 - 079686	Act 23:5	Ἔφη :	`V-IAI-3S`	⇒	`V-I|AAI-3S`
-- 044497	Luk 19:11	ἐγγὺς :	`PREP`	⇒	`ADV`
 
 
 
