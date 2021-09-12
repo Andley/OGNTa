@@ -1,6 +1,6 @@
 # OGNTa (OpenGNT Abridged)
 
-This is an abridged and updated version of OpenGNT [OGNT 3.3 Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip).
+This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)).
 
 **OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
@@ -8,24 +8,24 @@ This is an abridged and updated version of OpenGNT [OGNT 3.3 Base Text](https://
 
 OGNT3.3 abridged to the following tab-separated columns:
 -  OGNTsort = sort numbers of all words of the base text of OGNT.
--  Book-Chapter:Verse = scripture reference.
--  PMpWord-OGNTa-PMfWord = OGNTa and punctuation marks.
+-  reference = scripture reference in Book-Chapter:Verse format.
+-  Greek = Greek text, comprised of PMpWord/OGNTa/PMfWord, where:
    - PMpWord = punctuation mark(s) preceding the main word.
      - [[ changed to ⟦
      - ]] changed to ⟧
-	- OGNTa = Greek word of OGNT in accented form.
-	- PMfWord = punctuation mark(s) following the main word.
+   - OGNTa = Greek word of OGNT in accented form.
+   - PMfWord = punctuation mark(s) following the main word.
 -  lexeme = Greek word of OGNT in lexical form.
 -  rmac = Robinson's Morphological Analysis Codes.
 -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
 -  IT = context-sensitive glossess (from Berean Interlinear Bible)
 
 
-| OGNTsort | Book-Chapter:Verse | PMpWord-OGNTa-PMfWord | lexeme | rmac  | TBESG  | IT |
-|----------|--------------------|-----------------------|--------|-------|--------|----|
-| 000001 | Mat 1:1 | Βίβλος  | βίβλος | N-NSF | book | [The] book |
-| 029616	| Mar 16:20	| σημείων . ⟧ ¶	| σημεῖον	| N-GPN	| sign	| signs.|
-| 029617	| Mar 16:20	| ⟦ πάντα	| πᾶς	| A-APN	| all	| all |
+| OGNTsort | referemce | Greek | lexeme | rmac  | TBESG  | IT |
+|----------|-----------|-------|--------|-------|--------|----|
+| 000001   | Mat 1:1   | Βίβλος  | βίβλος | N-NSF | book | [The] book |
+| 029616   | Mar 16:20 | σημείων . ⟧ ¶	| σημεῖον | N-GPN | sign | signs.|
+| 029617   | Mar 16:20 | ⟦ πάντα | πᾶς	| A-APN	| all | all |
 
 ## Content Changes
 - OGNTsort	reference	Greek :	`rmac-old`	⇒	`rmac-new`
