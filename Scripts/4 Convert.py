@@ -48,7 +48,7 @@ for ol in Lines:
 		if (re.match("¬.*",x[2])): f.write("<hr>")
 		# --------------
 		x[6] = re.sub("\n","",x[6])
-		f.write(" <RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# ------------- insert paragraph break
 		if (re.match(".*¶$",x[2])): f.write("<pre></pre>")
 
