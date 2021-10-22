@@ -3,7 +3,7 @@
 import re
 
 inputFile = "./OpenGNT_version3_3.csv"
-outputFile = "./tmp/OGNT-trimmed.txt"
+outputFile = "./tmp/OGNT-trimmed"
 
 # ---------------------------------------------------
 f = open(inputFile,'r',encoding="utf-8")
@@ -51,8 +51,6 @@ searchReplace = (
 	('66-', 'Rev '),
 	('\[\[', '⟦ '),
 	('\]\]', '⟧ '),
-	(' —','—'),
-	('—',' ——'),
 )
 
 for search, replace in searchReplace:
@@ -60,6 +58,8 @@ for search, replace in searchReplace:
 
 # generate output file
 f = open(outputFile,'w',encoding='utf-8')
+# make file encoded "utf-8 with BOM"
+f.write('\ufeff')
 f.write (newData)
 f.close()
 
