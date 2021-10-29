@@ -49,6 +49,7 @@ for ol in Lines:
 			f.write("<rt>"+x[1]+"</rt> ")
 		# -------------- insert section break
 		if (re.match("¬.*",x[2])): f.write("<hr>")
+		if (re.match("<strong>¬.*",x[2])): f.write("<hr>")
 		# --------------
 		x[6] = re.sub("\n","",x[6])
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
@@ -110,6 +111,7 @@ for ol in Lines:
 			f.write("<rt>"+x[1]+"</rt> ")
 		# -------------- insert section break
 		if (re.match("¬.*",x[2])): f.write("<hr>")
+		if (re.match("<strong>¬.*",x[2])): f.write("<hr>")
 		# --------------
 		x[6] = re.sub("\n","",x[6])
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")

@@ -22,7 +22,7 @@ f.close()
 # processing
 f = open(outputFile,'w',encoding='utf-8')
 # make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+#f.write('\ufeff')
 
 for ol in Lines:
 	x = re.split ("\t", ol)
