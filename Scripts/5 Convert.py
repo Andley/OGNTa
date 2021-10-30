@@ -38,6 +38,10 @@ for ol in Lines:
 		if x[0] == "083187": f.write("\n<rt>徒28:29</rt> <rt>保羅說了這話，猶太人議論紛紛的就走了。）</rt>")
 		if x[0] == "090276": f.write("\n<rt>羅16:24</rt> <rt>城內管銀庫的以拉都，和兄弟括土問你們安。</rt>")
 		if x[0] == "101636": f.write("\n<rt>林後13:14</rt> <rt>願主耶穌基督的恩惠、神的慈愛、聖靈的感動，常與你們眾人同在！</rt>")
+		# -------------- insert section break
+		if (re.match("¬.*",x[2])): f.write("</br>")
+		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
+		if (re.match("<em>¬.*",x[2])): f.write("</br>")
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
 		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
 			f.write(" ")
@@ -47,14 +51,13 @@ for ol in Lines:
 			bcv = x[1]
 			f.write("\n")
 			f.write("<rt>"+x[1]+"</rt> ")
-		# -------------- insert section break
-		if (re.match("¬.*",x[2])): f.write("<hr>")
-		if (re.match("<strong>¬.*",x[2])): f.write("<hr>")
 		# --------------
 		x[6] = re.sub("\n","",x[6])
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# ------------- insert paragraph break
-		if (re.match(".*¶$",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶<strong>",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶<em>",x[2])): f.write("<pre></pre>")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\ndescription=OGNTa (https://github.com/Andley/OGNTa)")
@@ -100,6 +103,10 @@ for ol in Lines:
 		if x[0] == "083187": f.write("\n<rt>徒28:29</rt> <rt>保羅說了這話，猶太人議論紛紛的就走了。）</rt>")
 		if x[0] == "090276": f.write("\n<rt>羅16:24</rt> <rt>城內管銀庫的以拉都，和兄弟括土問你們安。</rt>")
 		if x[0] == "101636": f.write("\n<rt>林後13:14</rt> <rt>願主耶穌基督的恩惠、神的慈愛、聖靈的感動，常與你們眾人同在！</rt>")
+		# -------------- insert section break
+		if (re.match("¬.*",x[2])): f.write("</br>")
+		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
+		if (re.match("<em>¬.*",x[2])): f.write("</br>")
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
 		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
 			f.write(" ")
@@ -109,14 +116,13 @@ for ol in Lines:
 			bcv = x[1]
 			f.write("\n")
 			f.write("<rt>"+x[1]+"</rt> ")
-		# -------------- insert section break
-		if (re.match("¬.*",x[2])): f.write("<hr>")
-		if (re.match("<strong>¬.*",x[2])): f.write("<hr>")
 		# --------------
 		x[6] = re.sub("\n","",x[6])
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# ------------- insert paragraph break
-		if (re.match(".*¶$",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶<strong>",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶<em>",x[2])): f.write("<pre></pre>")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\ndescription=OGNTa-TC (https://github.com/Andley/OGNTa)")
