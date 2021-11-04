@@ -120,9 +120,9 @@ for ol in Lines:
 		x[6] = re.sub("\n","",x[6])
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# ------------- insert paragraph break
-		if (re.match(".*¶",x[2])): f.write("<pre></pre>")
-		if (re.match(".*¶<strong>",x[2])): f.write("<pre></pre>")
-		if (re.match(".*¶<em>",x[2])): f.write("<pre></pre>")
+		if (re.match(".*¶",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<strong>",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<em>",x[2])): f.write("</br></br></br>")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\ndescription=OGNTa-TC (https://github.com/Andley/OGNTa)")
