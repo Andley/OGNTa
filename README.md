@@ -4,7 +4,7 @@ This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https:/
 
 **OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
-**OGNTa-TC.txt** = OGNTa.txt with Chinese glosses adapted from [Chinese Standard Bible NT](https://github.com/eliranwong/OpenGNT/blob/master/mapping_CSB/OGNTtoCSB_DB_Export_version_2.xlsx.zip)
+**OGNTa-TC.txt** = OGNTa.txt with Traditional Chinese glosses adapted from [Chinese Standard Bible NT](https://github.com/eliranwong/OpenGNT/blob/master/mapping_CSB/OGNTtoCSB_DB_Export_version_2.xlsx.zip)
 
 ## Structure Changes
 
@@ -22,21 +22,17 @@ OGNT3.3 abridged to the following tab-separated columns:
 -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
 -  IT = context-sensitive glossess (from Berean Interlinear Bible)
 
+- TC = Traditional Chinese gloss
 
-| OGNTsort | referemce | Greek | lexeme | rmac  | TBESG  | IT |
+| OGNTsort | referemce | Greek | lexeme | rmac  | TBESG  | IT/TC |
 |----------|-----------|-------|--------|-------|--------|----|
 | 000001   | Mat 1:1   | Βίβλος  | βίβλος | N-NSF | book | [The] book |
 | 029616   | Mar 16:20 | σημείων . ⟧ ¶	| σημεῖον | N-GPN | sign | signs.|
 | 029617   | Mar 16:20 | ⟦ πάντα | πᾶς	| A-APN	| all | all |
+| 000382 |Mat 1:23 | ¬Ἰδοὺ | ἰδού | INJ | look! | 看 |
+
 
 ## Content Changes
-OGNTsort	reference	Greek :	`rmac-old`	⇒	`rmac-new`
-
-### rmac corrections
-- 018408	Mar 1:5	Ἰουδαία :	`N-NSF-L`	⇒	`A-NSF-L`
-- 044497	Luk 19:11	ἐγγὺς :	`PREP`	⇒	`ADV`
-- 044656	Luk 19:21	αὐστηρὸς :	`P-NSM`	⇒	`A-NSM`
-- 044681	Luk 19:22	αὐστηρός :	`P-NSM`	⇒	`A-NSM`
 
 ### rmac enhancements
 - OGNTsort	reference	Greek : `rmac-old` ⇒ `rmac-new`
