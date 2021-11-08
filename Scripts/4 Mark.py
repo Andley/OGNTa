@@ -13,7 +13,7 @@ f.close()
 
 f = open(outputFile,'w',encoding="utf-8")
 # make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+#f.write('\ufeff')
 
 for line in Lines:
 	x = re.split("\t", line)
@@ -42,7 +42,7 @@ f.close()
 
 f = open(outputFile,'w',encoding="utf-8")
 # make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+#f.write('\ufeff')
 
 for line in Lines:
 	x = re.split("\t", line)

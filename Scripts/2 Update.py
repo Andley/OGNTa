@@ -121,8 +121,8 @@ f.close()
 
 f = open(outputFile,'w',encoding='utf-8')
 # make file encoded "utf-8 with BOM"
-f.write('\ufeff')
-flag = 0
+#f.write('\ufeff')
+#flag = 0
 
 for line in Lines:
 	x = re.split("\t", line)

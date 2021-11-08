@@ -19,7 +19,7 @@ bcv = ""
 for ol in Lines:
 	if len(ol) > 1:
 		x = re.split ("\t", ol)
-		# -------------- insert CUV into OGNT gap verses to meet TheWord Bible requirements.
+		# -------------- insert CUV into OGNTa gap verses to meet TheWord Bible requirements.
 		if x[0] == "010140": f.write("\n<rt>太17:21</rt> <rt>至於這一類的鬼，若不禱告、禁食，他就不出來（或作：不能趕他出來）。</rt>")
 		if x[0] == "010496": f.write("\n<rt>太18:11</rt> <rt>人子來，為要拯救失喪的人。）</rt>")
 		if x[0] == "013732": f.write("\n<rt>太23:14</rt> <rt>你們這假冒為善的文士和法利賽人有禍了！因為你們侵吞寡婦的家產，假意做很長的禱告，所以要受更重的刑罰。）</rt>")
@@ -84,7 +84,7 @@ bcv = ""
 for ol in Lines:
 	if len(ol) > 1:
 		x = re.split ("\t", ol)
-		# -------------- insert CUV into OGNT gap verses to meet TheWord Bible requirements.
+		# -------------- insert CUV into OGNTa gap verses to meet TheWord Bible requirements.
 		if x[0] == "010140": f.write("\n<rt>太17:21</rt> <rt>至於這一類的鬼，若不禱告、禁食，他就不出來（或作：不能趕他出來）。</rt>")
 		if x[0] == "010496": f.write("\n<rt>太18:11</rt> <rt>人子來，為要拯救失喪的人。）</rt>")
 		if x[0] == "013732": f.write("\n<rt>太23:14</rt> <rt>你們這假冒為善的文士和法利賽人有禍了！因為你們侵吞寡婦的家產，假意做很長的禱告，所以要受更重的刑罰。）</rt>")
@@ -108,9 +108,9 @@ for ol in Lines:
 		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
 		if (re.match("<em>¬.*",x[2])): f.write("</br>")
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
-		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
+		if (x[1] == "啟 12:18") or (x[1] == "約三 1:15") or (x[1]== bcv):
 			f.write(" ")
-		elif (x[1] == "Mat 1:1"):
+		elif (x[1] == "太 1:1"):
 			f.write("<rt>"+x[1]+"</rt> ")
 		else:
 			bcv = x[1]
