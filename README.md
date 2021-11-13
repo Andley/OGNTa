@@ -140,6 +140,7 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 088636	Rom 12:16	ταπεινοῖς : `A-DPM` ⇒ `A-DPM⁞DPN`
 - 088062	Rom 11:14	σώσω : `V-FAI-1S` ⇒ `V-FAI⁞AAS-1S`
 - 088057	Rom 11:14	παραζηλώσω : `V-FAI-1S` ⇒ `V-FAI⁞AAS-1S`
+- 106998	Php 2:15	φαίνεσθε :`V-PEI-2P` ⇒ `V-PEI⁞PEM-2P`
 
 ---
 
