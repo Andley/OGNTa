@@ -142,6 +142,31 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 088057	Rom 11:14	παραζηλώσω : `V-FAI-1S` ⇒ `V-FAI⁞AAS-1S`
 - 106998	Php 2:15	φαίνεσθε :`V-PEI-2P` ⇒ `V-PEI⁞PEM-2P`
 - 107119	Php 2:25	Ἀναγκαῖον :`A-NSN` ⇒ `A-ASN`
+- 030349	Luk 1:43	ἵνα	:`ADV` ⇒ `CONJ`
+- 053269	Joh 6:29	ἵνα	:`ADV` ⇒ `CONJ`
+- 053447	Joh 6:39	ἵνα	:`ADV` ⇒ `CONJ`
+- 053471	Joh 6:40	ἵνα	:`ADV` ⇒ `CONJ`
+- 058273	Joh 11:57	ἵνα	:`ADV` ⇒ `CONJ`
+- 059756	Joh 13:34	ἵνα	:`ADV` ⇒ `CONJ`
+- 059762	Joh 13:34	ἵνα	:`ADV` ⇒ `CONJ`
+- 060562	Joh 15:8	ἵνα	:`ADV` ⇒ `CONJ`
+- 060630	Joh 15:12	ἵνα	:`ADV` ⇒ `CONJ`
+- 060727	Joh 15:17	ἵνα	:`ADV` ⇒ `CONJ`
+- 061545	Joh 17:3	ἵνα	:`ADV` ⇒ `CONJ`
+- 061569	Joh 17:4	ἵνα	:`ADV` ⇒ `CONJ`
+- 062758	Joh 18:39	ἵνα	:`ADV` ⇒ `CONJ`
+- 075931	Act 17:15	ἵνα	:`ADV` ⇒ `CONJ`
+- 089866	Rom 15:31	ἵνα	:`ADV` ⇒ `CONJ`
+- 106424	Php 1:9	ἵνα	:`ADV` ⇒ `CONJ`
+- 109400	Col 4:12	ἵνα	:`ADV` ⇒ `CONJ`
+- 112077	1Ti 1:18	ἵνα	:`ADV` ⇒ `CONJ`
+- 126106	1Jo 3:11	ἵνα	:`ADV` ⇒ `CONJ`
+- 126321	1Jo 3:23	ἵνα	:`ADV` ⇒ `CONJ`
+- 126803	1Jo 4:21	ἵνα	:`ADV` ⇒ `CONJ`
+- 126862	1Jo 5:3	ἵνα	:`ADV` ⇒ `CONJ`
+- 127342	2Jo 1:6	ἵνα	:`ADV` ⇒ `CONJ`
+- 127356	2Jo 1:6	ἵνα	:`ADV` ⇒ `CONJ`
+- 127530	3Jo 1:4	ἵνα	:`ADV` ⇒ `CONJ`
 
 ---
 
