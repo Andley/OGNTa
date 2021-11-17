@@ -2,9 +2,9 @@
 
 This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) 
 
-**OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
+**OGNTa.tsv** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
-**OGNTa-TC.txt** = OGNTa.txt with Traditional Chinese glosses adapted from [Chinese Standard Bible NT](https://github.com/eliranwong/OpenGNT/blob/master/mapping_CSB/OGNTtoCSB_DB_Export_version_2.xlsx.zip)
+**OGNTa-TC.tsv** = with Traditional Chinese glosses adapted from [Chinese Standard Bible NT](https://github.com/eliranwong/OpenGNT/blob/master/mapping_CSB/OGNTtoCSB_DB_Export_version_2.xlsx.zip)
 
 ## Structure Changes
 
