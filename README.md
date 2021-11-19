@@ -34,6 +34,8 @@ OGNT3.3 abridged to the following tab-separated columns:
 
 ## Content Changes
 
+### text additions
+⦃ ⦄
 ### rmac enhancements
 - OGNTsort	reference	Greek : `rmac-old` ⇒ `rmac-new`
 - 001339	Mat 4:7	Ἔφη : `V-IAI-3S` ⇒ `V-IAI⁞AAI-3S`

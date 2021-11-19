@@ -16,9 +16,9 @@ newData = re.sub('(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t〔(.*?)｜(.*?)｜(.*?)〕
 
 # clean-up punctuation marks etc.
 newData = re.sub('OGNTsort	Book-Chapter:Verse	PMpWordOGNTaPMfWord	lexeme	rmac	TBESG	IT\n','',newData)
-newData = re.sub ('</pm><pm>',' ', newData)
-newData = re.sub ('</pm>','', newData)
-newData = re.sub ('<pm>','', newData)
+# newData = re.sub ('</pm><pm>',' ', newData)
+newData = re.sub ('</pm>',' ', newData)
+newData = re.sub ('<pm>',' ', newData)
 
 # Update Book Name Abbreviation
 searchReplace = (
