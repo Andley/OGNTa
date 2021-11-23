@@ -4,7 +4,7 @@ This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https:/
 
 **OGNTa.tsv** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
-**OGNTa-TC.tsv** = with Traditional Chinese glosses adapted from [Chinese Standard Bible NT](https://github.com/eliranwong/OpenGNT/blob/master/mapping_CSB/OGNTtoCSB_DB_Export_version_2.xlsx.zip)
+**OGNTa-TC.tsv** = with Traditional Chinese glosses adapted from [OpenGNT_interlinear_CUVtc.csv](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_interlinear_CUVtc.csv.zip)
 
 ## Structure Changes
 
@@ -22,7 +22,7 @@ OGNT3.3 abridged to the following tab-separated columns:
 -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
 -  IT = context-sensitive glossess (from Berean Interlinear Bible)
 
-- TC = Traditional Chinese gloss
+- TC = Traditional Chinese glosses
 
 | OGNTsort | referemce | Greek | lexeme | rmac  | TBESG  | IT/TC |
 |----------|-----------|-------|--------|-------|--------|----|
@@ -36,6 +36,7 @@ OGNT3.3 abridged to the following tab-separated columns:
 
 ### text additions
 ⦃ ⦄
+
 ### rmac enhancements
 - OGNTsort	reference	Greek : `rmac-old` ⇒ `rmac-new`
 - 001339	Mat 4:7	Ἔφη : `V-IAI-3S` ⇒ `V-IAI⁞AAI-3S`
