@@ -63,7 +63,7 @@ for ol in Lines:
 		if (re.match(".*¶<em>",x[2])): f.write("</br></br></br>")
 
 # ---------- 
-f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa (https://github.com/Andley/OGNTa)")
+f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
 
 #
 f.close()
@@ -128,7 +128,7 @@ for ol in Lines:
 		if (re.match(".*¶<em>",x[2])): f.write("</br></br></br>")
 
 # ---------- 
-f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa (https://github.com/Andley/OGNTa)")
+f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
 
 #
 f.close()
