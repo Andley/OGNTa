@@ -2,8 +2,8 @@
 
 import re
 
-inputFile = "./tmp/OGNT-trimmed"
-outputFile = "./OGNTa.tsv"
+inputFile = "./tmp/OGNT-trimmed.txt"
+outputFile = "./OGNTa.txt"
 
 
 # modifications to morphological code
@@ -142,13 +142,11 @@ ChangeList = (
 )
 
 
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
-f = open(outputFile,'w',encoding='utf-8')
-# make file encoded "utf-8 with BOM"
-#f.write('\ufeff')
+f = open(outputFile,'w',encoding='utf_8_sig')
 #flag = 0
 
 for line in Lines:

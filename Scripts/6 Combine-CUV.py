@@ -8,21 +8,21 @@ inputFile = "./tmp/OGNTa-TC-Ruby.nt"
 cuvFile = "./CUV.txt"
 outputFile = "./tmp/OGNTa-TC.nt"
 
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
-f = open(cuvFile,'r',encoding="utf-8")
+f = open(cuvFile,'r',encoding="utf_8_sig")
 cuvLines = f.readlines()
 f.close()
 
-f = open(outputFile,'w',encoding='utf-8')
-# make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+f = open(outputFile,'w',encoding='utf_8_sig')
 
 
 for i in range(len(cuvLines)):
+	#print(Lines[i])
 	Lines[i] = re.sub('<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>', r'\1', Lines[i])
+	#print (Lines[i])
 	Lines[i] = re.sub('<rt>(.*?)</rt>', r'\1', Lines[i])
 	ol = Lines[i].strip()+cuvLines[i]
 	f.write(ol)

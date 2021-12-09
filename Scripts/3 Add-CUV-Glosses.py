@@ -1,12 +1,12 @@
 ﻿import re
 
-glosses = "./CUV-Glosses"
-inputFile = "./OGNTa.tsv"
-outputFile = "./OGNTa-TC.tsv"
+glosses = "./tmp/CUV-Glosses.txt"
+inputFile = "./OGNTa.txt"
+outputFile = "./OGNTa-TC.txt"
 
 # loading glosses into dictionary
 gloss_dict = {}
-gloss_file = open(glosses,'r',encoding="utf-8")
+gloss_file = open(glosses,'r',encoding="utf_8_sig")
 for Line in gloss_file:
 	# print(Line)
 	key, value = Line.split()
@@ -16,15 +16,13 @@ gloss_file.close()
 
 # loading OGNTa
 
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 newData = f.read()
 f.close()
 
 # processing
-f = open(outputFile,'w',encoding='utf-8')
-# make file encoded "utf-8 with BOM"
-#f.write('\ufeff')
+f = open(outputFile,'w',encoding='utf_8_sig')
 
 for ol in Lines:
 	x = re.split ("\t", ol)
@@ -36,7 +34,7 @@ f.close()
 
 
 # ---------------------------------------------------
-f = open(outputFile,'r',encoding="utf-8")
+f = open(outputFile,'r',encoding="utf_8_sig")
 newData = f.read()
 f.close()
 
@@ -74,6 +72,6 @@ searchReplace = (
 for search, replace in searchReplace:
 	newData = re.sub(search, replace, newData)
 
-f = open(outputFile,'w',encoding='utf-8')
+f = open(outputFile,'w',encoding='utf_8_sig')
 f.write (newData)
 f.close()

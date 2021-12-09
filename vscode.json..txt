@@ -1,0 +1,168 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "markdown-pdf.breaks": true,
+    "editor.renderWhitespace": "all",
+    "markdown.extension.toc.levels": "2..5",
+    "markdown-pdf.quality": 0,
+    "markdown-pdf.footerTemplate": "<div style=\"font-size:9px; margin-left:1cm;\"></div>",
+    "markdown-pdf.headerTemplate": "<div style=\"font-size:9px; margin-left:1cm;\"><span class='title'></span></div> <div style=\"font-size:9px; margin-left:auto; margin-right:1cm;\"><span class='pageNumber'></span>/<span class='totalPages'></span></div>",
+    "MarkdownPaste.path": "./images/",
+    "editor.maxTokenizationLineLength": 200000,
+    "editor.renderControlCharacters": true,
+    "window.menuBarVisibility": "default",
+    "workbench.statusBar.visible": true,
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "workbench.editor.enablePreview": false,
+    "editor.insertSpaces": false,
+    "markdown-preview-enhanced.scrollSync": false,
+    "editor.largeFileOptimizations": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "editormacros": {
+        "1-line": {
+            "type": "multiple",
+            "args": {
+                "macros": [
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>",
+                            "replacePattern": "$1"
+                        }
+                    }
+                ]
+            }
+        },
+        "2-line": {
+            "type": "multiple",
+            "args": {
+                "macros": [
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>",
+                            "replacePattern": "<RUBY>$1<rt>$2</rt></ruby>"
+                        }
+                    }
+                ]
+            }
+        },
+        "3-line": {
+            "type": "multiple",
+            "args": {
+                "macros": [
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>",
+                            "replacePattern": "<RUBY><ruby>$1<rt>$2</rt></ruby><rt>$4</rt></RUBY>"
+                        }
+                    }
+                ]
+            }
+        },
+        "interlinear": {
+            "type": "multiple",
+            "args": {
+                "macros": [
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<rt>(.. )([0-9])",
+                            "replacePattern": "\n- <rt>$2"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<rt>(... )([0-9])",
+                            "replacePattern": "\n- <rt>$2"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>καὶ",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>καὶ"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>ἵνα",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>ἵνα"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>ὅτι",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>ὅτι"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>ἐὰν",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>ἐὰν"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>ὡς",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>ὡς"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>ἀλλ᾽",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>ἀλλ᾽"
+                        }
+                    },
+                    {
+                        "type": "replace",
+                        "args": {
+                            "regex": true,
+                            "replaceAll": true,
+                            "searchPattern": "<RUBY><ruby><ruby>καθὼς",
+                            "replacePattern": "\n- <RUBY><ruby><ruby>καθὼς"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "files.encoding": "utf8bom",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false
+}

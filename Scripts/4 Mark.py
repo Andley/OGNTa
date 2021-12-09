@@ -4,16 +4,15 @@ import re
 
 ####### —————————————— Processing OGNTa ——————————————
 
-inputFile = "./OGNTa.tsv"
-outputFile = "./tmp/OGNTa-marked"
+inputFile = "./OGNTa.txt"
+outputFile = "./tmp/OGNTa-marked.txt"
 
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
-f = open(outputFile,'w',encoding="utf-8")
-# make file encoded "utf-8 with BOM"
-#f.write('\ufeff')
+f = open(outputFile,'w',encoding="utf_8_sig")
+
 
 for line in Lines:
 	x = re.split("\t", line)
@@ -40,14 +39,14 @@ f.close()
 
 ####### —————————————— Processing OGNTa-TC ——————————————
 
-inputFile = "./OGNTa-TC.tsv"
-outputFile = "./tmp/OGNTa-TC-marked"
+inputFile = "./OGNTa-TC.txt"
+outputFile = "./tmp/OGNTa-TC-marked.txt"
 
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
-f = open(outputFile,'w',encoding="utf-8")
+f = open(outputFile,'w',encoding="utf_8_sig")
 # make file encoded "utf-8 with BOM"
 #f.write('\ufeff')
 

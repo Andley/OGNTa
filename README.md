@@ -2,9 +2,9 @@
 
 This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) 
 
-**OGNTa.tsv** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
+**OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
-**OGNTa-TC.tsv** = with Traditional Chinese glosses adapted from [OpenGNT_interlinear_CUVtc.csv](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_interlinear_CUVtc.csv.zip)
+**OGNTa-TC.txt** = with Traditional Chinese glosses adapted from [OpenGNT_interlinear_CUVtc.csv](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_interlinear_CUVtc.csv.zip)
 
 ## Structure Changes
 
@@ -13,18 +13,19 @@ OGNT3.3 abridged to the following tab-separated columns:
 -  reference = scripture reference in Book-Chapter:Verse format.
 -  Greek = Greek text, comprised of PMpWord/OGNTa/PMfWord, where:
    - PMpWord = punctuation mark(s) preceding the main word.
-     - [[ changed to ⟦
-     - ]] changed to ⟧
+     - `[[` changed to `⟦`
+     - `]]` changed to `⟧`
    - OGNTa = Greek word of OGNT in accented form.
    - PMfWord = punctuation mark(s) following the main word.
--  lexeme = Greek word of OGNT in lexical form.
+-  lemma = Greek word of OGNT in lexical form.
 -  rmac = Robinson's Morphological Analysis Codes.
 -  TBESG = context-insensitive glosses (from Tyndale House's TAGNT).
--  IT = context-sensitive glossess (from Berean Interlinear Bible)
+-  IT = context-sensitive English glossess (from Berean Interlinear Bible)
+-  TC = context-sensitive Chinese glossess, within which
+  - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the lemma
 
-- TC = Traditional Chinese glosses
 
-| OGNTsort | referemce | Greek | lexeme | rmac  | TBESG  | IT/TC |
+| OGNTsort | referemce | Greek | lemma | rmac  | TBESG  | IT/TC |
 |----------|-----------|-------|--------|-------|--------|----|
 | 000001   | Mat 1:1   | Βίβλος  | βίβλος | N-NSF | book | [The] book |
 | 029616   | Mar 16:20 | σημείων . ⟧ ¶	| σημεῖον | N-GPN | sign | signs.|

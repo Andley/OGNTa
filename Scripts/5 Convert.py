@@ -5,18 +5,16 @@ todays_date = date.today()
 
 ####### —————————————— Processing OGNTa-RUBY ——————————————
 
-inputFile = "./tmp/OGNTa-marked"
+inputFile = "./tmp/OGNTa-marked.txt"
 outputFile = "./tmp/OGNTa-Ruby.nt"
 
 # loading data
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
 # processing
-f = open(outputFile,'w',encoding='utf-8')
-# make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+f = open(outputFile,'w',encoding='utf_8_sig')
 bcv = ""
 
 for ol in Lines:
@@ -49,6 +47,7 @@ for ol in Lines:
 		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
 			f.write(" ")
 		elif (x[1] == "Mat 1:1"):
+			bcv = x[1]
 			f.write("<rt>"+x[1]+"</rt> ")
 		else:
 			bcv = x[1]
@@ -70,18 +69,16 @@ f.close()
 
 ####### —————————————— Processing OGNTa-TC-RUBY ——————————————
 
-inputFile = "./tmp/OGNTa-TC-marked"
+inputFile = "./tmp/OGNTa-TC-marked.txt"
 outputFile = "./tmp/OGNTa-TC-Ruby.nt"
 
 # loading data
-f = open(inputFile,'r',encoding="utf-8")
+f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
 f.close()
 
 # processing
-f = open(outputFile,'w',encoding='utf-8')
-# make file encoded "utf-8 with BOM"
-f.write('\ufeff')
+f = open(outputFile,'w',encoding='utf_8_sig')
 bcv = ""
 
 for ol in Lines:
@@ -114,6 +111,7 @@ for ol in Lines:
 		if (x[1] == "啟 12:18") or (x[1] == "約三 1:15") or (x[1]== bcv):
 			f.write(" ")
 		elif (x[1] == "太 1:1"):
+			bcv = x[1]
 			f.write("<rt>"+x[1]+"</rt> ")
 		else:
 			bcv = x[1]
