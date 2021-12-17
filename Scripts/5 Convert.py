@@ -40,9 +40,10 @@ for ol in Lines:
 		if x[0] == "090276": f.write("\n<rt>羅16:24</rt> <rt>城內管銀庫的以拉都，和兄弟括土問你們安。</rt>")
 		if x[0] == "101636": f.write("\n<rt>林後13:14</rt> <rt>願主耶穌基督的恩惠、神的慈愛、聖靈的感動，常與你們眾人同在！</rt>")
 		# -------------- insert section break
-		if (re.match("¬.*",x[2])): f.write("<br>")
-		if (re.match("<strong>¬.*",x[2])): f.write("<br>")
-		if (re.match("<em>¬.*",x[2])): f.write("<br>")
+		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
+		if (re.match("¬.*",x[2])): f.write("</br>")
+		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
+		if (re.match("<em>¬.*",x[2])): f.write("</br>")
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
 		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
 			f.write(" ")
@@ -59,9 +60,10 @@ for ol in Lines:
 		# following format does not work for web browser
 		#f.write("<ruby>"+x[2]+"<rt>"+x[6]+"</rt><rt>"+x[3]+"</rt><rt>"+x[4]+"</rt></ruby>")
 		# ------------- insert paragraph break
-		if (re.match(".*¶",x[2])): f.write("<br><br><br>")
-		if (re.match(".*¶<strong>",x[2])): f.write("<br><br><br>")
-		if (re.match(".*¶<em>",x[2])): f.write("<br><br><br>")
+		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
+		if (re.match(".*¶",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<strong>",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<em>",x[2])): f.write("</br></br></br>")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
@@ -106,9 +108,10 @@ for ol in Lines:
 		if x[0] == "090276": f.write("\n<rt>羅16:24</rt> <rt>城內管銀庫的以拉都，和兄弟括土問你們安。</rt>")
 		if x[0] == "101636": f.write("\n<rt>林後13:14</rt> <rt>願主耶穌基督的恩惠、神的慈愛、聖靈的感動，常與你們眾人同在！</rt>")
 		# -------------- insert section break
-		if (re.match("¬.*",x[2])): f.write("<br>")
-		if (re.match("<strong>¬.*",x[2])): f.write("<br>")
-		if (re.match("<em>¬.*",x[2])): f.write("<br>")
+		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
+		if (re.match("¬.*",x[2])): f.write("</br>")
+		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
+		if (re.match("<em>¬.*",x[2])): f.write("</br>")
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
 		if (x[1] == "啟 12:18") or (x[1] == "約三 1:15") or (x[1]== bcv):
 			f.write(" ")
@@ -125,9 +128,10 @@ for ol in Lines:
 		# following format does not work for web browser
 		# f.write("<ruby>"+x[2]+"<rt>"+x[6]+"</rt><rt>"+x[3]+"</rt><rt>"+x[4]+"</rt></ruby>")
 		# ------------- insert paragraph break
-		if (re.match(".*¶",x[2])): f.write("<br><br><br>")
-		if (re.match(".*¶<strong>",x[2])): f.write("<br><br><br>")
-		if (re.match(".*¶<em>",x[2])): f.write("<br><br><br>")
+		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
+		if (re.match(".*¶",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<strong>",x[2])): f.write("</br></br></br>")
+		if (re.match(".*¶<em>",x[2])): f.write("</br></br></br>")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
