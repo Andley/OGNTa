@@ -38,8 +38,11 @@ OGNT3.3 abridged to the following tab-separated columns:
 ### text additions
 ⦃ ⦄
 
+### punctuation mark changes
+- 122411	1Pe 1:6	ἀγαλλιᾶσθε : `ἀγαλλιᾶσθε` ⇒ `ἀγαλλιᾶσθε ,` 
+
+
 ### rmac enhancements
-- OGNTsort	reference	Greek : `rmac-old` ⇒ `rmac-new`
 - 001339	Mat 4:7	Ἔφη : `V-IAI-3S` ⇒ `V-IAI⁞AAI-3S`
 - 001446	Mat 4:15	¬Γῆ : `N-NSF` ⇒ `N-NSF⁞VSF`
 - 001449	Mat 4:15	γῆ : `N-NSF` ⇒ `N-NSF⁞VSF`
