@@ -25456,7 +25456,7 @@
 122390	彼前 1:4	<b><font color='#4285F4'>τετηρημένην</font></b>	τηρέω	V-RPP-ASF	to keep	存留
 122399	彼前 1:5	<b><font color='#4285F4'>φρουρουμένους</font></b>	φρουρέω	V-PPP-APM	to guard	保守的人
 122405	彼前 1:5	<b><font color='#4285F4'>ἀποκαλυφθῆναι</font></b>	ἀποκαλύπτω	V-APN	to reveal	要顯現的
-122411	彼前 1:6	<b><font color='#DB4437'>ἀγαλλιᾶσθε ,</font></b>	ἀγαλλιάω	V-PNI⁞PNM-2P	to rejoice	你們是大有喜樂
+122411	彼前 1:6	<b><font color='#DB4437'>ἀγαλλιᾶσθε</font></b>	ἀγαλλιάω	V-PNI⁞PNM-2P	to rejoice	你們是大有喜樂
 122415	彼前 1:6	<b><font color='#4285F4'>δέον</font></b>	δεῖ	V-PAP-NSN	be necessary	be necessary
 122416	彼前 1:6	<b><font color='#DB4437'>ἐστὶν ,</font></b>	εἰμί	V-PAI-3S	to be	to be
 122417	彼前 1:6	<b><font color='#4285F4'>λυπηθέντες</font></b>	λυπέω	V-APP-NPM	to grieve	憂愁

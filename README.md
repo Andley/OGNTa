@@ -42,6 +42,10 @@ Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>because</rt></ruby><rt>ὅτι</rt></rub
 - 122411	1Pe 1:6	ἀγαλλιᾶσθε : `ἀγαλλιᾶσθε` ⇒ `ἀγαλλιᾶσθε ,` 
 
 
+### punctuation mark changes
+- 122411	1Pe 1:6	ἀγαλλιᾶσθε : `ἀγαλλιᾶσθε` ⇒ `ἀγαλλιᾶσθε ,` 
+
+
 ### rmac enhancements
 - 001339	Mat 4:7	Ἔφη : `V-IAI-3S` ⇒ `V-IAI⁞AAI-3S`
 - 001446	Mat 4:15	¬Γῆ : `N-NSF` ⇒ `N-NSF⁞VSF`
