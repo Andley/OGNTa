@@ -36,10 +36,13 @@ OGNT3.3 abridged to the following tab-separated columns:
 ## Content Changes
 
 ### text additions
-⦃ ⦄
+Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>because</rt></ruby><rt>ὅτι</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>σοῦ<rt>your</rt></ruby><rt>σύ</rt></ruby><rt>P-2GS</rt></RUBY> <RUBY><ruby><ruby><strong>ἐστιν</strong><rt>is</rt></ruby><rt>εἰμί</rt></ruby><rt>V-PAI-3S</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>βασιλεία<rt>kingdom</rt></ruby><rt>βασιλεία</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δύναμις<rt>power</rt></ruby><rt>δύναμις</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δόξα<rt>glory</rt></ruby><rt>δόξα</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>εἰς<rt>into</rt></ruby><rt>εἰς</rt></ruby><rt>PREP</rt></RUBY> <RUBY><ruby><ruby>τοὺς<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-APM</rt></RUBY> <RUBY><ruby><ruby>αἰῶνας.<rt>age</rt></ruby><rt>αἰών</rt></ruby><rt>N-APM</rt></RUBY> </br><RUBY><ruby><ruby>Ἀμήν.<rt>Amen.</rt></ruby><rt>ἀμήν</rt></ruby><rt>HEB</rt></RUBY>】+
+
+### punctuation mark changes
+- 122411	1Pe 1:6	ἀγαλλιᾶσθε : `ἀγαλλιᾶσθε` ⇒ `ἀγαλλιᾶσθε ,` 
+
 
 ### rmac enhancements
-- OGNTsort	reference	Greek : `rmac-old` ⇒ `rmac-new`
 - 001339	Mat 4:7	Ἔφη : `V-IAI-3S` ⇒ `V-IAI⁞AAI-3S`
 - 001446	Mat 4:15	¬Γῆ : `N-NSF` ⇒ `N-NSF⁞VSF`
 - 001449	Mat 4:15	γῆ : `N-NSF` ⇒ `N-NSF⁞VSF`
@@ -171,6 +174,83 @@ OGNT3.3 abridged to the following tab-separated columns:
 - 127342	2Jo 1:6	ἵνα	:`ADV` ⇒ `CONJ`
 - 127356	2Jo 1:6	ἵνα	:`ADV` ⇒ `CONJ`
 - 127530	3Jo 1:4	ἵνα	:`ADV` ⇒ `CONJ`
+- 016647	Mat 26:54	ὅτι : `ADV` ⇒ `CONJ`
+- 019328	Mar 2:16	Ὅτι : `ADV` ⇒ `CONJ`
+- 023926	Mar 9:11	Ὅτι : `ADV` ⇒ `CONJ`
+- 024224	Mar 9:28	Ὅτι : `ADV` ⇒ `CONJ`
+- 025128	Mar 10:33	ὅτι : `ADV` ⇒ `CONJ`
+- 033721	Luk 5:36	ὅτι : `ADV` ⇒ `CONJ`
+- 038041	Luk 10:11	ὅτι : `ADV` ⇒ `CONJ`
+- 038188	Luk 10:20	ὅτι : `ADV` ⇒ `CONJ`
+- 040275	Luk 12:39	ὅτι : `ADV` ⇒ `CONJ`
+- 047331	Luk 22:61	ὅτι : `ADV` ⇒ `CONJ`
+- 048999	Luk 24:44	ὅτι : `ADV` ⇒ `CONJ`
+- 051666	Joh 4:37	ὅτι : `ADV` ⇒ `CONJ`
+- 056390	Joh 9:25	ὅτι : `ADV` ⇒ `CONJ`
+- 056465	Joh 9:30	ὅτι : `ADV` ⇒ `CONJ`
+- 060880	Joh 15:25	ὅτι : `ADV` ⇒ `CONJ`
+- 062139	Joh 18:9	ὅτι : `ADV` ⇒ `CONJ`
+- 063761	Joh 20:9	ὅτι : `ADV` ⇒ `CONJ`
+- 064700	Joh 21:23	ὅτι : `ADV` ⇒ `CONJ`
+- 075553	Act 16:36	ὅτι : `ADV` ⇒ `CONJ`
+- 078184	Act 20:35	ὅτι : `ADV` ⇒ `CONJ`
+- 078198	Act 20:35	ὅτι : `ADV` ⇒ `CONJ`
+- 078239	Act 20:38	ὅτι : `ADV` ⇒ `CONJ`
+- 078863	Act 21:31	ὅτι : `ADV` ⇒ `CONJ`
+- 080479	Act 24:14	ὅτι : `ADV` ⇒ `CONJ`
+- 080603	Act 24:21	ὅτι : `ADV` ⇒ `CONJ`
+- 083101	Act 28:25	ὅτι : `ADV` ⇒ `CONJ`
+- 083744	Rom 1:32	ὅτι : `ADV` ⇒ `CONJ`
+- 083812	Rom 2:3	ὅτι : `ADV` ⇒ `CONJ`
+- 085551	Rom 6:6	ὅτι : `ADV` ⇒ `CONJ`
+- 086230	Rom 7:21	ὅτι : `ADV` ⇒ `CONJ`
+- 086976	Rom 9:2	ὅτι : `ADV` ⇒ `CONJ`
+- 087050	Rom 9:6	ὅτι : `ADV` ⇒ `CONJ`
+- 087551	Rom 10:5	ὅτι : `ADV` ⇒ `CONJ`
+- 088251	Rom 11:25	ὅτι : `ADV` ⇒ `CONJ`
+- 088917	Rom 13:11	ὅτι : `ADV` ⇒ `CONJ`
+- 090521	1Co 1:12	ὅτι : `ADV` ⇒ `CONJ`
+- 090738	1Co 1:26	ὅτι : `ADV` ⇒ `CONJ`
+- 092764	1Co 7:26	ὅτι : `ADV` ⇒ `CONJ`
+- 094529	1Co 11:23	ὅτι : `ADV` ⇒ `CONJ`
+- 096028	1Co 15:3	ὅτι : `ADV` ⇒ `CONJ`
+- 096039	1Co 15:4	ὅτι : `ADV` ⇒ `CONJ`
+- 096042	1Co 15:4	ὅτι : `ADV` ⇒ `CONJ`
+- 096052	1Co 15:5	ὅτι : `ADV` ⇒ `CONJ`
+- 096692	1Co 15:50	ὅτι : `ADV` ⇒ `CONJ`
+- 098757	2Co 5:14	ὅτι : `ADV` ⇒ `CONJ`
+- 099629	2Co 8:9	ὅτι : `ADV` ⇒ `CONJ`
+- 099918	2Co 9:2	ὅτι : `ADV` ⇒ `CONJ`
+- 100292	2Co 10:7	ὅτι : `ADV` ⇒ `CONJ`
+- 100354	2Co 10:11	ὅτι : `ADV` ⇒ `CONJ`
+- 100649	2Co 11:10	ὅτι : `ADV` ⇒ `CONJ`
+- 101833	Gal 1:13	ὅτι : `ADV` ⇒ `CONJ`
+- 105498	Eph 5:5	ὅτι : `ADV` ⇒ `CONJ`
+- 106359	Php 1:6	ὅτι : `ADV` ⇒ `CONJ`
+- 106596	Php 1:20	ὅτι : `ADV` ⇒ `CONJ`
+- 106726	Php 1:27	ὅτι : `ADV` ⇒ `CONJ`
+- 107012	Php 2:16	ὅτι : `ADV` ⇒ `CONJ`
+- 107088	Php 2:22	ὅτι : `ADV` ⇒ `CONJ`
+- 110591	1Th 4:15	ὅτι : `ADV` ⇒ `CONJ`
+- 111689	2Th 3:10	ὅτι : `ADV` ⇒ `CONJ`
+- 111912	1Ti 1:9	ὅτι : `ADV` ⇒ `CONJ`
+- 112009	1Ti 1:15	ὅτι : `ADV` ⇒ `CONJ`
+- 113652	2Ti 1:15	ὅτι : `ADV` ⇒ `CONJ`
+- 114072	2Ti 3:1	ὅτι : `ADV` ⇒ `CONJ`
+- 122152	Jas 5:11	ὅτι : `ADV` ⇒ `CONJ`
+- 124363	2Pe 1:20	ὅτι : `ADV` ⇒ `CONJ`
+- 124797	2Pe 3:3	ὅτι : `ADV` ⇒ `CONJ`
+- 124838	2Pe 3:5	ὅτι : `ADV` ⇒ `CONJ`
+- 124891	2Pe 3:8	ὅτι : `ADV` ⇒ `CONJ`
+- 125200	1Jo 1:5	ὅτι : `ADV` ⇒ `CONJ`
+- 126568	1Jo 4:10	ὅτι : `ADV` ⇒ `CONJ`
+- 126574	1Jo 4:10	ὅτι : `ADV` ⇒ `CONJ`
+- 127033	1Jo 5:11	ὅτι : `ADV` ⇒ `CONJ`
+- 127094	1Jo 5:14	ὅτι : `ADV` ⇒ `CONJ`
+- 128743	Rev 2:6	ὅτι : `ADV` ⇒ `CONJ`
+- 129279	Rev 3:1	ὅτι : `ADV` ⇒ `CONJ`
+- 129282	Rev 3:1	ὅτι : `ADV` ⇒ `CONJ`
+- 129619	Rev 3:15	ὅτι : `ADV` ⇒ `CONJ`
 
 ---
 
