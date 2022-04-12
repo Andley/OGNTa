@@ -44,7 +44,7 @@ Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>because</rt></ruby><rt>ὅτι</rt></rub
 ### 3.2) punctuation corrections
 OpenGNT_version3_3 | OGNTa | comment
 --- | --- | ---
-122411	1Pe 1:6	ἀγαλλιᾶσθε	ἀγαλλιάω	V-PNI-2P	you greatly rejoice | 122411	1Pe 1:6	ἀγαλλιᾶσθε,	ἀγαλλιάω	V-PNI-2P	you greatly rejoice
+- 122411	1Pe 1:6	ἀγαλλιᾶσθε	ἀγαλλιάω	V-PNI-2P	you greatly rejoice ⇒ 122411	1Pe 1:6	ἀγαλλιᾶσθε,	ἀγαλλιάω	V-PNI-2P	you greatly rejoice
 
 
 ### 3.3) rmac methodology change
