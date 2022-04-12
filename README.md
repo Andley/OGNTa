@@ -2,7 +2,7 @@
 
 ## 1) Description
 
-This is an abridged and updated version of OpenGNT (OGNT 3.3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) 
+This is an abridged and updated version of OpenGNTOGNT 3.3 [Base Text](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) 
 
 **OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv
 
@@ -42,9 +42,9 @@ OGNT3.3 abridged to the following tab-separated columns:
 Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>because</rt></ruby><rt>ὅτι</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>σοῦ<rt>your</rt></ruby><rt>σύ</rt></ruby><rt>P-2GS</rt></RUBY> <RUBY><ruby><ruby><strong>ἐστιν</strong><rt>is</rt></ruby><rt>εἰμί</rt></ruby><rt>V-PAI-3S</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>βασιλεία<rt>kingdom</rt></ruby><rt>βασιλεία</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δύναμις<rt>power</rt></ruby><rt>δύναμις</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δόξα<rt>glory</rt></ruby><rt>δόξα</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>εἰς<rt>into</rt></ruby><rt>εἰς</rt></ruby><rt>PREP</rt></RUBY> <RUBY><ruby><ruby>τοὺς<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-APM</rt></RUBY> <RUBY><ruby><ruby>αἰῶνας.<rt>age</rt></ruby><rt>αἰών</rt></ruby><rt>N-APM</rt></RUBY> </br><RUBY><ruby><ruby>Ἀμήν.<rt>Amen.</rt></ruby><rt>ἀμήν</rt></ruby><rt>HEB</rt></RUBY>】
 
 ### 3.2) punctuation corrections
-OpenGNT_version3_3 | OGNTa | comment
---- | --- | ---
-- 122411	1Pe 1:6	ἀγαλλιᾶσθε	ἀγαλλιάω	V-PNI-2P	you greatly rejoice ⇒ 122411	1Pe 1:6	ἀγαλλιᾶσθε,	ἀγαλλιάω	V-PNI-2P	you greatly rejoice
+OGNTsort | reference | OpenGNT_version3_3 | OGNTa | comment
+--- | --- | --- | --- | ---
+122411|1Pe 1:6|ἀγαλλιᾶσθε	ἀγαλλιάω	V-PNI-2P | ἀγαλλιᾶσθε`,`	ἀγαλλιάω	V-PNI-2P | comma added
 
 
 ### 3.3) rmac methodology change
