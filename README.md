@@ -26,23 +26,105 @@ abridged to the following tab-separated columns:
   - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the lemma
 
 For example :
-| OGNTsort | reference | Greek         | lemma   | rmac    | IT/TC         |
-| -------- | --------- | ------------- | ------- | ------- | ------------- |
-| 000001   | Mat 1:1   | Βίβλος        | βίβλος  | N-NSF   | [The] book    |
-| 000172   | 太 1:11   | Βαβυλῶνος.¶   | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
-| 000382   | Mat 1:23  | ¬Ἰδοὺ         | ἰδού    | INJ     | look!         |
-| 029617   | Mar 16:20 | ⟦ πάντα       | πᾶς     | A-APN   | all           |
+| OGNTsort | reference | Greek       | lemma   | rmac    | IT/TC         |
+| -------- | --------- | ----------- | ------- | ------- | ------------- |
+| 000001   | Mat 1:1   | Βίβλος      | βίβλος  | N-NSF   | [The] book    |
+| 000172   | 太 1:11   | Βαβυλῶνος.¶ | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
+| 000382   | Mat 1:23  | ¬Ἰδοὺ       | ἰδού    | INJ     | look!         |
+| 029617   | Mar 16:20 | ⟦ πάντα     | πᾶς     | A-APN   | all           |
 
 
 ## 3) Content Changes
 
-### 3.1) punctuation modifications
+### 3.1) text corrections
+
+
+### 3.2) punctuation modifications
 
 | OGNTsort | reference | OpenGNT_version3_3 | OGNTa       |
 | -------- | --------- | ------------------ | ----------- |
 | 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
 
-### 3.3) rmac corrections
+### 3.3) lemma corrections
+
+| OGNTsort | reference | OpenGNT_version3_3 | OGNTa |
+| -------- | --------- | ------------------ | ----- |
+| 009596   | Mat 16:21 | δέω                | δεῖ   |
+| 009956   | Mat 17:10 | δέω                | δεῖ   |
+| 014302   | Mat 24:6  | δέω                | δεῖ   |
+| 016649   | Mat 26:54 | δέω                | δεῖ   |
+| 023566   | Mar 8:31  | δέω                | δεῖ   |
+| 023932   | Mar 9:11  | δέω                | δεῖ   |
+| 026948   | Mar 13:7  | δέω                | δεῖ   |
+| 027001   | Mar 13:10 | δέω                | δεῖ   |
+| 031636   | Luk 2:49  | δέω                | δεῖ   |
+| 033025   | Luk 4:43  | δέω                | δεῖ   |
+| 037074   | Luk 9:22  | δέω                | δεῖ   |
+| 039844   | Luk 12:12 | δέω                | δεῖ   |
+| 040904   | Luk 13:14 | δέω                | δεῖ   |
+| 041255   | Luk 13:33 | δέω                | δεῖ   |
+| 043475   | Luk 17:25 | δέω                | δεῖ   |
+| 044413   | Luk 19:5  | δέω                | δεῖ   |
+| 045930   | Luk 21:9  | δέω                | δεῖ   |
+| 046934   | Luk 22:37 | δέω                | δεῖ   |
+| 048405   | Luk 24:7  | δέω                | δεῖ   |
+| 049000   | Luk 24:44 | δέω                | δεῖ   |
+| 050523   | Joh 3:7   | δέω                | δεῖ   |
+| 050638   | Joh 3:14  | δέω                | δεῖ   |
+| 050942   | Joh 3:30  | δέω                | δεῖ   |
+| 051472   | Joh 4:24  | δέω                | δεῖ   |
+| 055995   | Joh 9:4   | δέω                | δεῖ   |
+| 056915   | Joh 10:16 | δέω                | δεῖ   |
+| 058868   | Joh 12:34 | δέω                | δεῖ   |
+| 063762   | Joh 20:9  | δέω                | δεῖ   |
+| 065173   | Act 1:21  | δέω                | δεῖ   |
+| 066483   | Act 3:21  | δέω                | δεῖ   |
+| 066824   | Act 4:12  | δέω                | δεῖ   |
+| 067831   | Act 5:29  | δέω                | δεῖ   |
+| 070264   | Act 9:6   | δέω                | δεῖ   |
+| 070437   | Act 9:16  | δέω                | δεῖ   |
+| 074136   | Act 14:22 | δέω                | δεῖ   |
+| 074335   | Act 15:5  | δέω                | δεῖ   |
+| 075462   | Act 16:30 | δέω                | δεῖ   |
+| 077212   | Act 19:21 | δέω                | δεῖ   |
+| 078187   | Act 20:35 | δέω                | δεῖ   |
+| 079844   | Act 23:11 | δέω                | δεῖ   |
+| 080911   | Act 25:10 | δέω                | δεῖ   |
+| 082267   | Act 27:24 | δέω                | δεῖ   |
+| 082299   | Act 27:26 | δέω                | δεῖ   |
+| 086734   | Rom 8:26  | δέω                | δεῖ   |
+| 088475   | Rom 12:3  | δέω                | δεῖ   |
+| 093069   | 1Co 8:2   | δέω                | δεῖ   |
+| 094447   | 1Co 11:19 | δέω                | δεῖ   |
+| 096329   | 1Co 15:25 | δέω                | δεῖ   |
+| 096736   | 1Co 15:53 | δέω                | δεῖ   |
+| 098679   | 2Co 5:10  | δέω                | δεῖ   |
+| 106219   | Eph 6:20  | δέω                | δεῖ   |
+| 109265   | Col 4:4   | δέω                | δεῖ   |
+| 109287   | Col 4:6   | δέω                | δεῖ   |
+| 110368   | 1Th 4:1   | δέω                | δεῖ   |
+| 111636   | 2Th 3:7   | δέω                | δεῖ   |
+| 112305   | 1Ti 3:2   | δέω                | δεῖ   |
+| 112362   | 1Ti 3:7   | δέω                | δεῖ   |
+| 112461   | 1Ti 3:15  | δέω                | δεῖ   |
+| 113772   | 2Ti 2:6   | δέω                | δεῖ   |
+| 114032   | 2Ti 2:24  | δέω                | δεῖ   |
+| 114732   | Tit 1:7   | δέω                | δεῖ   |
+| 114793   | Tit 1:11  | δέω                | δεῖ   |
+| 114802   | Tit 1:11  | δέω                | δεῖ   |
+| 115884   | Heb 2:1   | δέω                | δεῖ   |
+| 119181   | Heb 11:6  | δέω                | δεῖ   |
+| 124957   | 2Pe 3:11  | δέω                | δεῖ   |
+| 128176   | Rev 1:1   | δέω                | δεῖ   |
+| 129808   | Rev 4:1   | δέω                | δεῖ   |
+| 132320   | Rev 10:11 | δέω                | δεῖ   |
+| 132436   | Rev 11:5  | δέω                | δεῖ   |
+| 135212   | Rev 17:10 | δέω                | δεῖ   |
+| 136607   | Rev 20:3  | δέω                | δεῖ   |
+| 137703   | Rev 22:6  | δέω                | δεῖ   |
+
+
+### 3.4) rmac corrections
 
 | OGNTsort | reference | OpenGNT_version3_3 | OGNTa   |
 | -------- | --------- | ------------------ | ------- |
@@ -156,8 +238,17 @@ For example :
 | 129282   | Rev 3:1   | ADV                | CONJ    |
 | 129619   | Rev 3:15  | ADV                | CONJ    |
 
+### 3.5) rmac Verbal system revamped 
+- Tense-Forms simplifcations: 
+  - Second Aorist (2A) → Aorist (A)
+  - Second Future (2F) → Future (F)
+  - Second Perfect (2R) → Perfect (R)
+  - Second Pluperfect (2L) → Pluperfect (L)
+- Voice: 
+  - P (Passive)、M (Middle)、E (Either middle or passive)、D (middle Deponent)、N (middle or passive Deponent)、O (passive Deponent) simplified to M (Middle) ---- (not implemented yet, to-be-decided)
 
-### 3.3) rmac enhancements
+
+### 3.6) rmac enhancements
 
 | OGNTsort | reference | OpenGNT_version3_3 | OGNTa         |
 | -------- | --------- | ------------------ | ------------- |
@@ -263,10 +354,11 @@ For example :
 | 125884   | 1Jo 2:29  | V-PAI-2P           | V-PAI⁞PAM-2P  |
 | 126387   | 1Jo 4:2   | V-PAI-2P           | V-PAI⁞PAM-2P  |
 
-### 3.4) rmac voice system revamped (not implemented yet, to-be-decided)
 
 
-### 3.5) text additions (not implemented yet, to-be-decided)
+
+
+### 3.7) text additions (not implemented yet, to-be-decided)
 
 Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>because</rt></ruby><rt>ὅτι</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>σοῦ<rt>your</rt></ruby><rt>σύ</rt></ruby><rt>P-2GS</rt></RUBY> <RUBY><ruby><ruby><strong>ἐστιν</strong><rt>is</rt></ruby><rt>εἰμί</rt></ruby><rt>V-PAI-3S</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>βασιλεία<rt>kingdom</rt></ruby><rt>βασιλεία</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δύναμις<rt>power</rt></ruby><rt>δύναμις</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>And</rt></ruby><rt>καί</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δόξα<rt>glory</rt></ruby><rt>δόξα</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>εἰς<rt>into</rt></ruby><rt>εἰς</rt></ruby><rt>PREP</rt></RUBY> <RUBY><ruby><ruby>τοὺς<rt>the</rt></ruby><rt>ὁ</rt></ruby><rt>T-APM</rt></RUBY> <RUBY><ruby><ruby>αἰῶνας.<rt>age</rt></ruby><rt>αἰών</rt></ruby><rt>N-APM</rt></RUBY> </br><RUBY><ruby><ruby>Ἀμήν.<rt>Amen.</rt></ruby><rt>ἀμήν</rt></ruby><rt>HEB</rt></RUBY>】
 
