@@ -5,7 +5,7 @@ import re
 # ══════ trim interlinear ═══════════════════════
 
 inputFile = "./source/OpenGNT_version3_3.csv"
-outputFile = "./OGNTa.txt"
+outputFile = "./OGNTa-LN.txt"
 
 # Trimming OGNT to minimum dataset required for interlinear
 # 1-OGNTsort	2-TANTTsort	3-FEATURESsort1-	4-LevinsohnClauseID	5-OTquotation	〔6-BGBsortI｜7-LTsortI｜8-STsortI〕	〔9-Book｜10-Chapter｜11-Verse〕	〔12-OGNTk｜13-OGNTu｜14-OGNTa｜15-lexeme｜16-rmac｜17-sn〕	〔18-BDAGentry｜19-EDNTentry｜20-MounceEntry｜21-GoodrickKohlenbergerNumbers｜22-LN-LouwNidaNumbers〕	〔23-transSBLcap｜24-transSBL｜25-modernGreek｜26-Fonética_Transliteración〕	〔27-TBESG｜28-IT｜29-LT｜30-ST｜31-Español〕	〔32-PMpWord｜33-PMfWord〕	〔34-Note｜35-Mvar｜36-Mlexeme｜37-Mrmac｜38-Msn｜39-MTBESG〕
@@ -63,6 +63,7 @@ for line in Lines:
 	x[8] = x[8].replace('65', 'Jud')
 	x[8] = x[8].replace('66', 'Rev')
 	#
-	f.write (x[0]+'\t'+x[8]+' '+x[9]+':'+x[10]+'\t'+x[31]+x[13]+x[32]+'\t'+x[14]+'\t'+x[15]+'\t'+x[27]+'\n')
+	#f.write (x[0]+'\t'+x[8]+' '+x[9]+':'+x[10]+'\t'+x[31]+x[13]+x[32]+'\t'+x[14]+'\t'+x[21]+'\t'+x[15]+'\t'+x[27]+'\n')
+	f.write (x[21]+'\n')
 
 f.close()

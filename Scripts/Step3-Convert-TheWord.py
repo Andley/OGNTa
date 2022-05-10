@@ -56,7 +56,7 @@ for ol in Lines:
 			f.write("<rt>"+x[1]+"</rt> ")
 		# --------------
 		x[5] = re.sub("\n","",x[5])
-		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[5]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# following format does not work for web browser
 		#f.write("<ruby>"+x[2]+"<rt>"+x[5]+"</rt><rt>"+x[3]+"</rt><rt>"+x[4]+"</rt></ruby>")
 		# ------------- insert paragraph break
@@ -123,7 +123,7 @@ for ol in Lines:
 			f.write("<rt>"+x[1]+"</rt> ")
 		# --------------
 		x[5] = re.sub("\n","",x[5])
-		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[5]+"</rt></ruby><rt>"+x[3]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 		# following format does not work for web browser
 		# f.write("<ruby>"+x[2]+"<rt>"+x[5]+"</rt><rt>"+x[3]+"</rt><rt>"+x[4]+"</rt></ruby>")
 		# ------------- insert paragraph break

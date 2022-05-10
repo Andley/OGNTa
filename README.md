@@ -126,126 +126,135 @@ For example :
 
 ### 3.4) rmac corrections
 
-| OGNTsort | reference | OpenGNT_version3_3 | OGNTa   |
-| -------- | --------- | ------------------ | ------- |
-| 000891   | Mat 2:23  | ADV                | CONJ    |
-| 014871   | Mat 24:43 | ADV                | CONJ    |
-| 016647   | Mat 26:54 | ADV                | CONJ    |
-| 018408   | Mar 1:5   | N-NSF-L            | A-NSF-L |
-| 019328   | Mar 2:16  | ADV                | CONJ    |
-| 023926   | Mar 9:11  | ADV                | CONJ    |
-| 024224   | Mar 9:28  | ADV                | CONJ    |
-| 025128   | Mar 10:33 | ADV                | CONJ    |
-| 030349   | Luk 1:43  | ADV                | CONJ    |
-| 033721   | Luk 5:36  | ADV                | CONJ    |
-| 038041   | Luk 10:11 | ADV                | CONJ    |
-| 038188   | Luk 10:20 | ADV                | CONJ    |
-| 040275   | Luk 12:39 | ADV                | CONJ    |
-| 044497   | Luk 19:11 | PREP               | ADV     |
-| 044656   | Luk 19:21 | P-NSM              | A-NSM   |
-| 044681   | Luk 19:22 | P-NSM              | A-NSM   |
-| 047331   | Luk 22:61 | ADV                | CONJ    |
-| 048999   | Luk 24:44 | ADV                | CONJ    |
-| 051666   | Joh 4:37  | ADV                | CONJ    |
-| 053269   | Joh 6:29  | ADV                | CONJ    |
-| 053447   | Joh 6:39  | ADV                | CONJ    |
-| 053471   | Joh 6:40  | ADV                | CONJ    |
-| 056390   | Joh 9:25  | ADV                | CONJ    |
-| 056465   | Joh 9:30  | ADV                | CONJ    |
-| 058273   | Joh 11:57 | ADV                | CONJ    |
-| 059756   | Joh 13:34 | ADV                | CONJ    |
-| 059762   | Joh 13:34 | ADV                | CONJ    |
-| 060562   | Joh 15:8  | ADV                | CONJ    |
-| 060630   | Joh 15:12 | ADV                | CONJ    |
-| 060727   | Joh 15:17 | ADV                | CONJ    |
-| 060880   | Joh 15:25 | ADV                | CONJ    |
-| 061545   | Joh 17:3  | ADV                | CONJ    |
-| 061569   | Joh 17:4  | ADV                | CONJ    |
-| 062139   | Joh 18:9  | ADV                | CONJ    |
-| 062758   | Joh 18:39 | ADV                | CONJ    |
-| 063761   | Joh 20:9  | ADV                | CONJ    |
-| 064700   | Joh 21:23 | ADV                | CONJ    |
-| 075553   | Act 16:36 | ADV                | CONJ    |
-| 075931   | Act 17:15 | ADV                | CONJ    |
-| 078184   | Act 20:35 | ADV                | CONJ    |
-| 078198   | Act 20:35 | ADV                | CONJ    |
-| 078239   | Act 20:38 | ADV                | CONJ    |
-| 078863   | Act 21:31 | ADV                | CONJ    |
-| 080479   | Act 24:14 | ADV                | CONJ    |
-| 080603   | Act 24:21 | ADV                | CONJ    |
-| 083101   | Act 28:25 | ADV                | CONJ    |
-| 083744   | Rom 1:32  | ADV                | CONJ    |
-| 083812   | Rom 2:3   | ADV                | CONJ    |
-| 085551   | Rom 6:6   | ADV                | CONJ    |
-| 086230   | Rom 7:21  | ADV                | CONJ    |
-| 086976   | Rom 9:2   | ADV                | CONJ    |
-| 087050   | Rom 9:6   | ADV                | CONJ    |
-| 087551   | Rom 10:5  | ADV                | CONJ    |
-| 088251   | Rom 11:25 | ADV                | CONJ    |
-| 088917   | Rom 13:11 | ADV                | CONJ    |
-| 089866   | Rom 15:31 | ADV                | CONJ    |
-| 090521   | 1Co 1:12  | ADV                | CONJ    |
-| 090738   | 1Co 1:26  | ADV                | CONJ    |
-| 092764   | 1Co 7:26  | ADV                | CONJ    |
-| 094529   | 1Co 11:23 | ADV                | CONJ    |
-| 096028   | 1Co 15:3  | ADV                | CONJ    |
-| 096039   | 1Co 15:4  | ADV                | CONJ    |
-| 096042   | 1Co 15:4  | ADV                | CONJ    |
-| 096052   | 1Co 15:5  | ADV                | CONJ    |
-| 096692   | 1Co 15:50 | ADV                | CONJ    |
-| 098757   | 2Co 5:14  | ADV                | CONJ    |
-| 099629   | 2Co 8:9   | ADV                | CONJ    |
-| 099918   | 2Co 9:2   | ADV                | CONJ    |
-| 100292   | 2Co 10:7  | ADV                | CONJ    |
-| 100354   | 2Co 10:11 | ADV                | CONJ    |
-| 100649   | 2Co 11:10 | ADV                | CONJ    |
-| 101833   | Gal 1:13  | ADV                | CONJ    |
-| 105498   | Eph 5:5   | ADV                | CONJ    |
-| 106359   | Php 1:6   | ADV                | CONJ    |
-| 106424   | Php 1:9   | ADV                | CONJ    |
-| 106596   | Php 1:20  | ADV                | CONJ    |
-| 106726   | Php 1:27  | ADV                | CONJ    |
-| 107012   | Php 2:16  | ADV                | CONJ    |
-| 107088   | Php 2:22  | ADV                | CONJ    |
-| 107119   | Php 2:25  | A-NSN              | A-ASN   |
-| 109400   | Col 4:12  | ADV                | CONJ    |
-| 110591   | 1Th 4:15  | ADV                | CONJ    |
-| 111689   | 2Th 3:10  | ADV                | CONJ    |
-| 111912   | 1Ti 1:9   | ADV                | CONJ    |
-| 112009   | 1Ti 1:15  | ADV                | CONJ    |
-| 112077   | 1Ti 1:18  | ADV                | CONJ    |
-| 113652   | 2Ti 1:15  | ADV                | CONJ    |
-| 114072   | 2Ti 3:1   | ADV                | CONJ    |
-| 122152   | Jas 5:11  | ADV                | CONJ    |
-| 124363   | 2Pe 1:20  | ADV                | CONJ    |
-| 124797   | 2Pe 3:3   | ADV                | CONJ    |
-| 124838   | 2Pe 3:5   | ADV                | CONJ    |
-| 124891   | 2Pe 3:8   | ADV                | CONJ    |
-| 125200   | 1Jo 1:5   | ADV                | CONJ    |
-| 126106   | 1Jo 3:11  | ADV                | CONJ    |
-| 126321   | 1Jo 3:23  | ADV                | CONJ    |
-| 126568   | 1Jo 4:10  | ADV                | CONJ    |
-| 126574   | 1Jo 4:10  | ADV                | CONJ    |
-| 126803   | 1Jo 4:21  | ADV                | CONJ    |
-| 126862   | 1Jo 5:3   | ADV                | CONJ    |
-| 127033   | 1Jo 5:11  | ADV                | CONJ    |
-| 127094   | 1Jo 5:14  | ADV                | CONJ    |
-| 127342   | 2Jo 1:6   | ADV                | CONJ    |
-| 127356   | 2Jo 1:6   | ADV                | CONJ    |
-| 127530   | 3Jo 1:4   | ADV                | CONJ    |
-| 128743   | Rev 2:6   | ADV                | CONJ    |
-| 129279   | Rev 3:1   | ADV                | CONJ    |
-| 129282   | Rev 3:1   | ADV                | CONJ    |
-| 129619   | Rev 3:15  | ADV                | CONJ    |
+| OGNTsort | reference | OpenGNT_version3_3 | OGNTa    |
+| -------- | --------- | ------------------ | -------- |
+| 000891   | Mat 2:23  | ADV                | CONJ     |
+| 014871   | Mat 24:43 | ADV                | CONJ     |
+| 016647   | Mat 26:54 | ADV                | CONJ     |
+| 018408   | Mar 1:5   | N-NSF-L            | A-NSF-L  |
+| 019328   | Mar 2:16  | ADV                | CONJ     |
+| 023926   | Mar 9:11  | ADV                | CONJ     |
+| 024224   | Mar 9:28  | ADV                | CONJ     |
+| 025128   | Mar 10:33 | ADV                | CONJ     |
+| 030349   | Luk 1:43  | ADV                | CONJ     |
+| 033721   | Luk 5:36  | ADV                | CONJ     |
+| 038041   | Luk 10:11 | ADV                | CONJ     |
+| 038188   | Luk 10:20 | ADV                | CONJ     |
+| 040275   | Luk 12:39 | ADV                | CONJ     |
+| 044497   | Luk 19:11 | PREP               | ADV      |
+| 044656   | Luk 19:21 | P-NSM              | A-NSM    |
+| 044681   | Luk 19:22 | P-NSM              | A-NSM    |
+| 047331   | Luk 22:61 | ADV                | CONJ     |
+| 048999   | Luk 24:44 | ADV                | CONJ     |
+| 051666   | Joh 4:37  | ADV                | CONJ     |
+| 053269   | Joh 6:29  | ADV                | CONJ     |
+| 053447   | Joh 6:39  | ADV                | CONJ     |
+| 053471   | Joh 6:40  | ADV                | CONJ     |
+| 056390   | Joh 9:25  | ADV                | CONJ     |
+| 056465   | Joh 9:30  | ADV                | CONJ     |
+| 058273   | Joh 11:57 | ADV                | CONJ     |
+| 059756   | Joh 13:34 | ADV                | CONJ     |
+| 059762   | Joh 13:34 | ADV                | CONJ     |
+| 060562   | Joh 15:8  | ADV                | CONJ     |
+| 060630   | Joh 15:12 | ADV                | CONJ     |
+| 060727   | Joh 15:17 | ADV                | CONJ     |
+| 060880   | Joh 15:25 | ADV                | CONJ     |
+| 061545   | Joh 17:3  | ADV                | CONJ     |
+| 061569   | Joh 17:4  | ADV                | CONJ     |
+| 062139   | Joh 18:9  | ADV                | CONJ     |
+| 062758   | Joh 18:39 | ADV                | CONJ     |
+| 063761   | Joh 20:9  | ADV                | CONJ     |
+| 064700   | Joh 21:23 | ADV                | CONJ     |
+| 075553   | Act 16:36 | ADV                | CONJ     |
+| 075931   | Act 17:15 | ADV                | CONJ     |
+| 078184   | Act 20:35 | ADV                | CONJ     |
+| 078198   | Act 20:35 | ADV                | CONJ     |
+| 078239   | Act 20:38 | ADV                | CONJ     |
+| 078863   | Act 21:31 | ADV                | CONJ     |
+| 080479   | Act 24:14 | ADV                | CONJ     |
+| 080573   | Act 24:19 | V-2PAN             | V-PAN    |
+| 080603   | Act 24:21 | ADV                | CONJ     |
+| 083101   | Act 28:25 | ADV                | CONJ     |
+| 083744   | Rom 1:32  | ADV                | CONJ     |
+| 083812   | Rom 2:3   | ADV                | CONJ     |
+| 085551   | Rom 6:6   | ADV                | CONJ     |
+| 086230   | Rom 7:21  | ADV                | CONJ     |
+| 086976   | Rom 9:2   | ADV                | CONJ     |
+| 087050   | Rom 9:6   | ADV                | CONJ     |
+| 087551   | Rom 10:5  | ADV                | CONJ     |
+| 088251   | Rom 11:25 | ADV                | CONJ     |
+| 088917   | Rom 13:11 | ADV                | CONJ     |
+| 089866   | Rom 15:31 | ADV                | CONJ     |
+| 090521   | 1Co 1:12  | ADV                | CONJ     |
+| 090738   | 1Co 1:26  | ADV                | CONJ     |
+| 092764   | 1Co 7:26  | ADV                | CONJ     |
+| 094529   | 1Co 11:23 | ADV                | CONJ     |
+| 096028   | 1Co 15:3  | ADV                | CONJ     |
+| 096039   | 1Co 15:4  | ADV                | CONJ     |
+| 096042   | 1Co 15:4  | ADV                | CONJ     |
+| 096052   | 1Co 15:5  | ADV                | CONJ     |
+| 096692   | 1Co 15:50 | ADV                | CONJ     |
+| 098757   | 2Co 5:14  | ADV                | CONJ     |
+| 099629   | 2Co 8:9   | ADV                | CONJ     |
+| 099918   | 2Co 9:2   | ADV                | CONJ     |
+| 100292   | 2Co 10:7  | ADV                | CONJ     |
+| 100354   | 2Co 10:11 | ADV                | CONJ     |
+| 100649   | 2Co 11:10 | ADV                | CONJ     |
+| 101833   | Gal 1:13  | ADV                | CONJ     |
+| 103082   | Gal 4:18  | V-2PAN             | V-PAN    |
+| 103099   | Gal 4:20  | V-2PAN             | V-PAN    |
+| 105498   | Eph 5:5   | ADV                | CONJ     |
+| 106359   | Php 1:6   | ADV                | CONJ     |
+| 106424   | Php 1:9   | ADV                | CONJ     |
+| 106596   | Php 1:20  | ADV                | CONJ     |
+| 106726   | Php 1:27  | ADV                | CONJ     |
+| 107012   | Php 2:16  | ADV                | CONJ     |
+| 107088   | Php 2:22  | ADV                | CONJ     |
+| 107119   | Php 2:25  | A-NSN              | A-ASN    |
+| 109400   | Col 4:12  | ADV                | CONJ     |
+| 110591   | 1Th 4:15  | ADV                | CONJ     |
+| 111689   | 2Th 3:10  | ADV                | CONJ     |
+| 111912   | 1Ti 1:9   | ADV                | CONJ     |
+| 112009   | 1Ti 1:15  | ADV                | CONJ     |
+| 112077   | 1Ti 1:18  | ADV                | CONJ     |
+| 113652   | 2Ti 1:15  | ADV                | CONJ     |
+| 114072   | 2Ti 3:1   | ADV                | CONJ     |
+| 122152   | Jas 5:11  | ADV                | CONJ     |
+| 124363   | 2Pe 1:20  | ADV                | CONJ     |
+| 124797   | 2Pe 3:3   | ADV                | CONJ     |
+| 124838   | 2Pe 3:5   | ADV                | CONJ     |
+| 124891   | 2Pe 3:8   | ADV                | CONJ     |
+| 125200   | 1Jo 1:5   | ADV                | CONJ     |
+| 126106   | 1Jo 3:11  | ADV                | CONJ     |
+| 126321   | 1Jo 3:23  | ADV                | CONJ     |
+| 126568   | 1Jo 4:10  | ADV                | CONJ     |
+| 126574   | 1Jo 4:10  | ADV                | CONJ     |
+| 126803   | 1Jo 4:21  | ADV                | CONJ     |
+| 126862   | 1Jo 5:3   | ADV                | CONJ     |
+| 127033   | 1Jo 5:11  | ADV                | CONJ     |
+| 127094   | 1Jo 5:14  | ADV                | CONJ     |
+| 127342   | 2Jo 1:6   | ADV                | CONJ     |
+| 127356   | 2Jo 1:6   | ADV                | CONJ     |
+| 127530   | 3Jo 1:4   | ADV                | CONJ     |
+| 128743   | Rev 2:6   | ADV                | CONJ     |
+| 129083   | Rev 2:20  | V-2PAI-2S          | V-PAI-2S |
+| 129279   | Rev 3:1   | ADV                | CONJ     |
+| 129282   | Rev 3:1   | ADV                | CONJ     |
+| 129619   | Rev 3:15  | ADV                | CONJ     |
 
 ### 3.5) rmac Verbal system revamped 
-- Tense-Forms simplifcations: 
-  - Second Aorist (2A) → Aorist (A)
-  - Second Future (2F) → Future (F)
-  - Second Perfect (2R) → Perfect (R)
-  - Second Pluperfect (2L) → Pluperfect (L)
-- Voice: 
-  - P (Passive)、M (Middle)、E (Either middle or passive)、D (middle Deponent)、N (middle or passive Deponent)、O (passive Deponent) simplified to M (Middle) ---- (not implemented yet, to-be-decided)
+- Secondary Tense-Forms code simplified to single letter lower-case letter.
+  - Second Aorist: 2A → A
+  - Second Future: 2F → F
+  - Second Perfect: 2R → R
+  - Second Pluperfect: 2L → L
+- Voice code simplified to relect current trend in scholarship ---- not implemented yet, to-be-decided
+  - Passive: P → 
+  - Middle: M → 
+  - Either middle or passive: E → 
+  - Middle Deponent: D → 
+  - Middle or passive Deponent: N → 
+  - Passive Deponent: O → 
 
 
 ### 3.6) rmac enhancements
