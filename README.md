@@ -364,7 +364,8 @@ For example :
 | 126387   | 1Jo 4:2   | V-PAI-2P           | V-PAI⁞PAM-2P  |
 
 
-
+### 3.7) glosses modification
+- remove all occurences of ’ (`2019`) and ”(`201D`)
 
 
 ### 3.7) text additions (not implemented yet, to-be-decided)

@@ -40,7 +40,7 @@ for ol in Lines:
 		if x[0] == "090276": f.write("\n<rt>羅16:24</rt> <rt>城內管銀庫的以拉都，和兄弟括土問你們安。</rt>")
 		if x[0] == "101636": f.write("\n<rt>林後13:14</rt> <rt>願主耶穌基督的恩惠、神的慈愛、聖靈的感動，常與你們眾人同在！</rt>")
 		# -------------- insert section break
-		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
+		# TW3 clipboard monitor does not support <br>, use </br> instead 😂
 		if (re.match("¬.*",x[2])): f.write("</br>")
 		if (re.match("<strong>¬.*",x[2])): f.write("</br>")
 		if (re.match("<em>¬.*",x[2])): f.write("</br>")
