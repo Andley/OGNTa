@@ -226,6 +226,7 @@ For example :
 | 027922   | Mar 14:29 | V-IAI-3S           | V-IAI⁞AAI-3S  |
 | 030929   | Luk 2:7   | V-AAI-3S           | V-AAI⁞IAI-3S  |
 | 040274   | Luk 12:39 | V-PAI-2P           | V-PAI⁞PAM-2P  |
+| 043789   | Luk 18:8  | CONJ               | PRT-I         |
 | 044085   | Luk 18:25 | N-ASF              | N-ASF⁞ASM     |
 | 045957   | Luk 21:11 | N-NPM              | N-NPM⁞NPF     |
 | 046258   | Luk 21:31 | V-PAI-2P           | V-PAI⁞PAM-2P  |
@@ -246,6 +247,7 @@ For example :
 | 061790   | Joh 17:15 | T-GSM              | T-GSM⁞GSN     |
 | 061797   | Joh 17:15 | T-GSM              | T-GSM⁞GSN     |
 | 066321   | Act 3:12  | D-DSN              | D-DSN⁞DSM     |
+| 069974   | Act 8:30  | CONJ               | PRT-I         |
 | 071398   | Act 10:28 | V-IAI-3S           | V-IAI⁞AAI-3S  |
 | 071563   | Act 10:36 | A-GPM              | A-GPM⁞GPN     |
 | 07490    | Mat 13:28 | V-IAI-3S           | V-IAI⁞AAI-3S  |
@@ -269,6 +271,7 @@ For example :
 | 095378   | 1Co 13:13 | D-GPN              | D-GPN⁞GPF     |
 | 099999   | 2Co 9:6   | D-ASN              | D-ASN⁞NSN     |
 | 100496   | 2Co 11:1  | V-PMI-2P           | V-PMI⁞PMM-2P  |
+| 102313   | Gal 2:17  | CONJ               | PRT-I         |
 | 102458   | Gal 3:7   | V-PAI-2P           | V-PAI⁞PAM-2P  |
 | 103687   | Gal 6:7   | V-PAS-3S           | V-PAS⁞AAS-3S  |
 | 105014   | Eph 4:6   | A-GPM              | A-GPM⁞GPN     |
