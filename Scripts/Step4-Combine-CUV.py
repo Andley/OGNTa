@@ -21,9 +21,9 @@ f = open(outputFile,'w',encoding='utf_8_sig')
 
 for i in range(len(cuvLines)):
 	#print(Lines[i])
-	#Lines[i] = re.sub('<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>', r'\1', Lines[i])
+	Lines[i] = re.sub('<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>', r'\1', Lines[i])
 	#print (Lines[i])
-	#Lines[i] = re.sub('<rt>(.*?)</rt>', r'\1', Lines[i])
+	Lines[i] = re.sub('<rt>(.*?)</rt>', r'\1', Lines[i])
 	ol = Lines[i].strip()+cuvLines[i]
 	f.write(ol)
 	#print (ol)
