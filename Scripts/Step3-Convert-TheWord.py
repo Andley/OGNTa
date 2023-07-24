@@ -115,9 +115,9 @@ for ol in Lines:
 			x[2] = x[2].replace('¬','')
 
 		# -------------- align 3Jo 1:15 & Rev 12:18 to meet TheWord Bible requirements.
-		if (x[1] == "Rev 12:18") or (x[1] == "3Jo 1:15") or (x[1]== bcv):
+		if (x[1] == "啟 12:18") or (x[1] == "約三 1:15") or (x[1]== bcv):
 			f.write(" ")
-		elif (x[1] == "Mat 1:1"):
+		elif (x[1] == "太 1:1"):
 			bcv = x[1]
 			f.write(x[1]+" ")
 		else:
