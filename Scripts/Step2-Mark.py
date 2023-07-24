@@ -16,6 +16,9 @@ f1 = open(outputFile1,'w',encoding="utf_8_sig")
 for line in Lines:
 	x = re.split("\t", line)
 
+	x[2] = re.sub(r"([\.,;·])",r"<strong>\1</strong>",x[2])
+	# print (x[2])
+
 	# add emphasis for Verbs
 	if (re.match(r'V-...-\d.',x[4])) or (re.match(r'V-...⁞...-\d.',x[4])) or (re.match(r'V-....-\d.',x[4])):
 		f1.write(x[0]+"\t"+x[1]+"\t<strong>"+x[2]+"</strong>\t"+x[3]+"\t"+x[4]+"\t"+x[5])
@@ -46,6 +49,10 @@ f1 = open(outputFile1,'w',encoding="utf_8_sig")
 
 for line in Lines:
 	x = re.split("\t", line)
+
+
+	x[2] = re.sub(r"([\.,;·])",r"<strong>\1</strong>",x[2])
+	# print (x[2])
 
 	# add emphasis for Verbs
 	if (re.match(r'V-...-\d.',x[4])) or (re.match(r'V-...⁞...-\d.',x[4])) or (re.match(r'V-....-\d.',x[4])):

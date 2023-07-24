@@ -1,6 +1,6 @@
 # OGNTa (OpenGNT Abridged)
 
-## 1) Description
+## Description
 
 This is an abridged and updated version of [OpenGNTOGNT 3.3](https://github.com/eliranwong/OpenGNT). There are two main files:
 
@@ -8,193 +8,103 @@ This is an abridged and updated version of [OpenGNTOGNT 3.3](https://github.com/
 
 **OGNTa-TC.txt** = OGNTa.txt with Traditional Chinese glosses adapted from [OpenGNT_interlinear_CUVtc.csv](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_interlinear_CUVtc.csv.zip)
 
-## 2) Structure Changes
+## §1 Structure Changes
 
 abridged to the following tab-separated columns:
 -  OGNTsort = sort numbers of all words of the base text of OGNT.
--  reference = scripture reference in Book-Chapter:Verse format.
--  Greek = Greek text, comprised of PMpWord/OGNTa/PMfWord, where:
-   - PMpWord = punctuation mark(s) preceding the main word.
+-  Referemce = scripture Referemce in Book-Chapter:Verse format.
+-  Greek = Greek text, combination of PMpWord/OGNTa/PMfWord, where:
+   - PMpWord = punctuation mark(s) preceding the main word with `<strong>` tags enclosed;
      - `[[` changed to `⟦`
      - `]]` changed to `⟧`
-   - OGNTa = Greek word of OGNT in accented form.
-   - PMfWord = punctuation mark(s) following the main word.
--  lemma = Greek word of OGNT in lexical form.
--  rmac = Robinson's Morphological Analysis Codes.
+   - OGNTa = Greek word of OGNT in accented form;
+   - PMfWord = punctuation mark(s) following the main word with `<strong>` tags enclosed.
+-  Lemma = Greek word of OGNT in lexical form.
+-  Code  = Morphological Analysis Codes.
 -  IT = context-sensitive English glossess (from Berean Interlinear Bible)
 -  TC = context-sensitive Chinese glossess, within which:
-  - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the lemma
+  - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the Lemma
 
 For example :
-| OGNTsort | reference | Greek       | lemma   | rmac    | IT/TC         |
-| -------- | --------- | ----------- | ------- | ------- | ------------- |
-| 000001   | Mat 1:1   | Βίβλος      | βίβλος  | N-NSF   | [The] book    |
-| 000172   | 太 1:11   | Βαβυλῶνος.¶ | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
-| 000382   | Mat 1:23  | ¬Ἰδοὺ       | ἰδού    | INJ     | look!         |
-| 029617   | Mar 16:20 | ⟦ πάντα     | πᾶς     | A-APN   | all           |
+| OGNTsort | Referemce | Greek                         | Lemma   | Code    | IT/TC         |
+| -------- | --------- | ----------------------------- | ------- | ------- | ------------- |
+| 000001   | Mat 1:1   | Βίβλος                        | βίβλος  | N-NSF   | [The] book    |
+| 000172   | 太 1:11   | Βαβυλῶνος <strong>.¶</strong> | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
+| 000382   | Mat 1:23  | ¬Ἰδοὺ                         | ἰδού    | INJ     | look!         |
+| 029617   | Mar 16:20 | <strong>⟦</strong> πάντα      | πᾶς     | A-APN   | all           |
 
 
-## 3) Content Changes
-
-### 3.1) text corrections
-
-
-### 3.2) punctuation modifications
-
-| OGNTsort | reference | OpenGNT_version3_3 | OGNTa       |
-| -------- | --------- | ------------------ | ----------- |
-| 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
-
-### 3.3) lemma corrections
-
-- δέω ⇒ δεῖ
-- ὅς, ἥ ⇒ ὅς
-- ὕδωρ, ὕδατος ⇒ ὕδωρ
-- Δαυείδ, Δαυίδ, Δαβίδ ⇒ Δαυίδ
-- ἔπω, ἐρῶ, εἶπον ⇒ εἶπον
-- ὅστις, ἥτις ⇒ ὅστις
+## §2 Content Changes
+### §2.1 Text Additions
+`002730a	Mat 6:13	⟦ὅτι	ὅτι	CONJ	that/since`
+`002730b	Mat 6:13	σοῦ	σύ	P-2GS	you`
+`002730c	Mat 6:13	ἐστιν	εἰμί	V-PAI-3S	to be`
+`002730d	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
+`002730e	Mat 6:13	βασιλεία	βασιλεία	N-NSF	kingdom`
+`002730f	Mat 6:13	καὶ	καί	CONJ	and`
+`002730g	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
+`002730h	Mat 6:13	δύναμις	δύναμις	N-NSF	power`
+`002730i	Mat 6:13	καὶ	καί	CONJ	and`
+`002730j	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
+`002730k	Mat 6:13	δόξα	δόξα	N-NSF	glory`
+`002730l	Mat 6:13	εἰς	εἰς	PREP	toward`
+`002730m	Mat 6:13	τοῦς	ὁ	T-APM	the/this/who`
+`002730n	Mat 6:13	αἰῶνας	αἰών	N-APM	an age`
+`002730o	Mat 6:13	ἀμήν.⟧¶	ἀμήν	INJ-HEB	amen`
 
 
-### 3.4) rmac corrections
+### §2.2 Lemma Modifications
 
-| OGNTsort | reference | OpenGNT_version3_3 | OGNTa    |
-| -------- | --------- | ------------------ | -------- |
-| 000891   | Mat 2:23  | ADV                | CONJ     |
-| 014871   | Mat 24:43 | ADV                | CONJ     |
-| 016647   | Mat 26:54 | ADV                | CONJ     |
-| 018408   | Mar 1:5   | N-NSF-L            | A-NSF-L  |
-| 019328   | Mar 2:16  | ADV                | CONJ     |
-| 023926   | Mar 9:11  | ADV                | CONJ     |
-| 024224   | Mar 9:28  | ADV                | CONJ     |
-| 025128   | Mar 10:33 | ADV                | CONJ     |
-| 030349   | Luk 1:43  | ADV                | CONJ     |
-| 033721   | Luk 5:36  | ADV                | CONJ     |
-| 038041   | Luk 10:11 | ADV                | CONJ     |
-| 038188   | Luk 10:20 | ADV                | CONJ     |
-| 040275   | Luk 12:39 | ADV                | CONJ     |
-| 044497   | Luk 19:11 | PREP               | ADV      |
-| 044656   | Luk 19:21 | P-NSM              | A-NSM    |
-| 044681   | Luk 19:22 | P-NSM              | A-NSM    |
-| 047331   | Luk 22:61 | ADV                | CONJ     |
-| 048999   | Luk 24:44 | ADV                | CONJ     |
-| 051666   | Joh 4:37  | ADV                | CONJ     |
-| 053269   | Joh 6:29  | ADV                | CONJ     |
-| 053447   | Joh 6:39  | ADV                | CONJ     |
-| 053471   | Joh 6:40  | ADV                | CONJ     |
-| 056390   | Joh 9:25  | ADV                | CONJ     |
-| 056465   | Joh 9:30  | ADV                | CONJ     |
-| 058273   | Joh 11:57 | ADV                | CONJ     |
-| 059756   | Joh 13:34 | ADV                | CONJ     |
-| 059762   | Joh 13:34 | ADV                | CONJ     |
-| 060562   | Joh 15:8  | ADV                | CONJ     |
-| 060630   | Joh 15:12 | ADV                | CONJ     |
-| 060727   | Joh 15:17 | ADV                | CONJ     |
-| 060880   | Joh 15:25 | ADV                | CONJ     |
-| 061545   | Joh 17:3  | ADV                | CONJ     |
-| 061569   | Joh 17:4  | ADV                | CONJ     |
-| 062139   | Joh 18:9  | ADV                | CONJ     |
-| 062758   | Joh 18:39 | ADV                | CONJ     |
-| 063761   | Joh 20:9  | ADV                | CONJ     |
-| 064700   | Joh 21:23 | ADV                | CONJ     |
-| 075553   | Act 16:36 | ADV                | CONJ     |
-| 075931   | Act 17:15 | ADV                | CONJ     |
-| 078184   | Act 20:35 | ADV                | CONJ     |
-| 078198   | Act 20:35 | ADV                | CONJ     |
-| 078239   | Act 20:38 | ADV                | CONJ     |
-| 078863   | Act 21:31 | ADV                | CONJ     |
-| 080479   | Act 24:14 | ADV                | CONJ     |
-| 080573   | Act 24:19 | V-2PAN             | V-PAN    |
-| 080603   | Act 24:21 | ADV                | CONJ     |
-| 083101   | Act 28:25 | ADV                | CONJ     |
-| 083744   | Rom 1:32  | ADV                | CONJ     |
-| 083812   | Rom 2:3   | ADV                | CONJ     |
-| 085551   | Rom 6:6   | ADV                | CONJ     |
-| 086230   | Rom 7:21  | ADV                | CONJ     |
-| 086976   | Rom 9:2   | ADV                | CONJ     |
-| 087050   | Rom 9:6   | ADV                | CONJ     |
-| 087551   | Rom 10:5  | ADV                | CONJ     |
-| 088251   | Rom 11:25 | ADV                | CONJ     |
-| 088917   | Rom 13:11 | ADV                | CONJ     |
-| 089866   | Rom 15:31 | ADV                | CONJ     |
-| 090521   | 1Co 1:12  | ADV                | CONJ     |
-| 090738   | 1Co 1:26  | ADV                | CONJ     |
-| 092764   | 1Co 7:26  | ADV                | CONJ     |
-| 094529   | 1Co 11:23 | ADV                | CONJ     |
-| 096028   | 1Co 15:3  | ADV                | CONJ     |
-| 096039   | 1Co 15:4  | ADV                | CONJ     |
-| 096042   | 1Co 15:4  | ADV                | CONJ     |
-| 096052   | 1Co 15:5  | ADV                | CONJ     |
-| 096692   | 1Co 15:50 | ADV                | CONJ     |
-| 098757   | 2Co 5:14  | ADV                | CONJ     |
-| 099629   | 2Co 8:9   | ADV                | CONJ     |
-| 099918   | 2Co 9:2   | ADV                | CONJ     |
-| 100292   | 2Co 10:7  | ADV                | CONJ     |
-| 100354   | 2Co 10:11 | ADV                | CONJ     |
-| 100649   | 2Co 11:10 | ADV                | CONJ     |
-| 101833   | Gal 1:13  | ADV                | CONJ     |
-| 103082   | Gal 4:18  | V-2PAN             | V-PAN    |
-| 103099   | Gal 4:20  | V-2PAN             | V-PAN    |
-| 105498   | Eph 5:5   | ADV                | CONJ     |
-| 106359   | Php 1:6   | ADV                | CONJ     |
-| 106424   | Php 1:9   | ADV                | CONJ     |
-| 106596   | Php 1:20  | ADV                | CONJ     |
-| 106726   | Php 1:27  | ADV                | CONJ     |
-| 107012   | Php 2:16  | ADV                | CONJ     |
-| 107088   | Php 2:22  | ADV                | CONJ     |
-| 107119   | Php 2:25  | A-NSN              | A-ASN    |
-| 109400   | Col 4:12  | ADV                | CONJ     |
-| 110591   | 1Th 4:15  | ADV                | CONJ     |
-| 111689   | 2Th 3:10  | ADV                | CONJ     |
-| 111912   | 1Ti 1:9   | ADV                | CONJ     |
-| 112009   | 1Ti 1:15  | ADV                | CONJ     |
-| 112077   | 1Ti 1:18  | ADV                | CONJ     |
-| 113652   | 2Ti 1:15  | ADV                | CONJ     |
-| 114072   | 2Ti 3:1   | ADV                | CONJ     |
-| 122152   | Jas 5:11  | ADV                | CONJ     |
-| 124363   | 2Pe 1:20  | ADV                | CONJ     |
-| 124797   | 2Pe 3:3   | ADV                | CONJ     |
-| 124838   | 2Pe 3:5   | ADV                | CONJ     |
-| 124891   | 2Pe 3:8   | ADV                | CONJ     |
-| 125200   | 1Jo 1:5   | ADV                | CONJ     |
-| 126106   | 1Jo 3:11  | ADV                | CONJ     |
-| 126321   | 1Jo 3:23  | ADV                | CONJ     |
-| 126568   | 1Jo 4:10  | ADV                | CONJ     |
-| 126574   | 1Jo 4:10  | ADV                | CONJ     |
-| 126803   | 1Jo 4:21  | ADV                | CONJ     |
-| 126862   | 1Jo 5:3   | ADV                | CONJ     |
-| 127033   | 1Jo 5:11  | ADV                | CONJ     |
-| 127094   | 1Jo 5:14  | ADV                | CONJ     |
-| 127342   | 2Jo 1:6   | ADV                | CONJ     |
-| 127356   | 2Jo 1:6   | ADV                | CONJ     |
-| 127530   | 3Jo 1:4   | ADV                | CONJ     |
-| 128743   | Rev 2:6   | ADV                | CONJ     |
-| 129083   | Rev 2:20  | V-2PAI-2S          | V-PAI-2S |
-| 129279   | Rev 3:1   | ADV                | CONJ     |
-| 129282   | Rev 3:1   | ADV                | CONJ     |
-| 129619   | Rev 3:15  | ADV                | CONJ     |
+| OpenGNT_version3_3   | OGNTa |
+| -------------------- | ----- |
+| Δαυείδ, Δαυίδ, Δαβίδ | Δαυίδ |
+| ἔπω, ἐρῶ, εἶπον      | εἶπον |
+| ὅς, ἥ                | ὅς    |
+| ὅστις, ἥτις          | ὅστις |
+| ὕδωρ, ὕδατος         | ὕδωρ  |
 
-### 3.5) rmac Verbal system revamped 
-- Eliminate Secondary Tense-Forms.
-  - Second Aorist: 2A → A
-  - Second Future: 2F → F
-  - Second Perfect: 2R → R
-  - Second Pluperfect: 2L → L
-- Voice System Changes: to reflect current trend in scholarship(<mark>not implemented yet</mark>)
-  - what Carl Conrad refers to as: MP1
-    - Middle: M → M
+
+### §2.3 Code Modifications
+
+#### §2.3.1 General Modifications
+- Part of Speech:
+  - αὐστηρός: P → A
+  - ἄρα: CONJ → PRT
+  - ἐγγύς: PREP → ADV
+  - ὅτι: ADV → CONJ
+- Nouns:
+  - remove -P, -L. -T, -C after Case-Number-Gender
+-  Adjectives
+   - remove -C, -S, -N, -L, -PG, -T, -P after Case-Number-Gender
+- Verbs: 
+  - Secondary Tense-Forms:
+    - Second Present: 2P → P
+    - Second Aorist: 2A → A
+    - Second Future: 2F → F
+    - Second Perfect: 2R → R
+    - Second Pluperfect: 2L → L
+  - Voice System:
     - Middle Deponent: D → M 
     - Middle or passive Deponent: N → M
     - Either middle or passive: E → M
-  - what Carl Conrad refers to as: MP2
     - Passive: P → P
     - Passive Deponent: O → P
+- Glosses:    
+  - remove all occurences of ’ (UNICODE `2019`) and ”(UNICODE `201D`)
 
 
+#### §2.3.2 Specific Modifications
+
+| OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
+| -------- | --------- | ------------------ | ----------- |
+| 018408   | Mar 1:5   | N-NSF-L            | A-NSF       |
+| 107119   | Php 2:25  | A-NSN              | A-ASN       |
+| 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
 
 
-### 3.6) rmac enhancements
+#### §2.3.4 Code Enhancements
 
-| OGNTsort | reference | OpenGNT_version3_3 | OGNTa         |
+| OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa         |
 | -------- | --------- | ------------------ | ------------- |
 | 001339   | Mat 4:7   | V-IAI-3S           | V-IAI⁞AAI-3S  |
 | 001446   | Mat 4:15  | N-NSF              | N-NSF⁞VSF     |
@@ -302,13 +212,8 @@ For example :
 | 126387   | 1Jo 4:2   | V-PAI-2P           | V-PAI⁞PAM-2P  |
 
 
-### 3.7) glosses modification
-- remove all occurences of ’ (`2019`) and ”(`201D`)
 
 
-### 3.7) text additions (not implemented yet, to-be-decided)
-
-Mat 6:13【<RUBY><ruby><ruby>Ὅτι<rt>ὅτι</rt></ruby><rt>because</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>σοῦ<rt>σύ</rt></ruby><rt>your</rt></ruby><rt>P-2GS</rt></RUBY> <RUBY><ruby><ruby><strong>ἐστιν</strong><rt>εἰμί</rt></ruby><rt>is</rt></ruby><rt>V-PAI-3S</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>ὁ</rt></ruby><rt>the</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>βασιλεία<rt>βασιλεία</rt></ruby><rt>kingdom</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>καί</rt></ruby><rt>And</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>ὁ</rt></ruby><rt>the</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δύναμις<rt>δύναμις</rt></ruby><rt>power</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>καὶ<rt>καί</rt></ruby><rt>And</rt></ruby><rt>CONJ</rt></RUBY> <RUBY><ruby><ruby>ἡ<rt>ὁ</rt></ruby><rt>the</rt></ruby><rt>T-NSF</rt></RUBY> <RUBY><ruby><ruby>δόξα<rt>δόξα</rt></ruby><rt>glory</rt></ruby><rt>N-NSF</rt></RUBY> <RUBY><ruby><ruby>εἰς<rt>εἰς</rt></ruby><rt>into</rt></ruby><rt>PREP</rt></RUBY> <RUBY><ruby><ruby>τοὺς<rt>ὁ</rt></ruby><rt>the</rt></ruby><rt>T-APM</rt></RUBY> <RUBY><ruby><ruby>αἰῶνας.<rt>αἰών</rt></ruby><rt>age</rt></ruby><rt>N-APM</rt></RUBY> </br><RUBY><ruby><ruby>Ἀμήν.<rt>ἀμήν</rt></ruby><rt>Amen.</rt></ruby><rt>HEB</rt></RUBY>】
 
 
 ---
