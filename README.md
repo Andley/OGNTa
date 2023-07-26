@@ -84,11 +84,10 @@ For example :
     - Second Future: 2F → F
     - Second Perfect: 2R → R
     - Second Pluperfect: 2L → L
-  - Voice System:
+  - Voice System: (M, P remain unchanged)
     - Middle Deponent: D → M 
     - Middle or passive Deponent: N → M
     - Either middle or passive: E → M
-    - Passive: P → P
     - Passive Deponent: O → P
 - Glosses:    
   - remove all occurences of ’ (UNICODE `2019`) and ”(UNICODE `201D`)
