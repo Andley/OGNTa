@@ -36,22 +36,26 @@ For example :
 
 ## §2 Content Changes
 ### §2.1 Text Additions
-`002730a	Mat 6:13	⟦ὅτι	ὅτι	CONJ	that/since`
-`002730b	Mat 6:13	σοῦ	σύ	P-2GS	you`
-`002730c	Mat 6:13	ἐστιν	εἰμί	V-PAI-3S	to be`
-`002730d	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
-`002730e	Mat 6:13	βασιλεία	βασιλεία	N-NSF	kingdom`
-`002730f	Mat 6:13	καὶ	καί	CONJ	and`
-`002730g	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
-`002730h	Mat 6:13	δύναμις	δύναμις	N-NSF	power`
-`002730i	Mat 6:13	καὶ	καί	CONJ	and`
-`002730j	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who`
-`002730k	Mat 6:13	δόξα	δόξα	N-NSF	glory`
-`002730l	Mat 6:13	εἰς	εἰς	PREP	toward`
-`002730m	Mat 6:13	τοῦς	ὁ	T-APM	the/this/who`
-`002730n	Mat 6:13	αἰῶνας	αἰών	N-APM	an age`
-`002730o	Mat 6:13	ἀμήν.⟧¶	ἀμήν	INJ-HEB	amen`
 
+```
+
+002730a	Mat 6:13	⟦ὅτι	ὅτι	CONJ	that/since
+002730b	Mat 6:13	σοῦ	σύ	P-2GS	you
+002730c	Mat 6:13	ἐστιν	εἰμί	V-PAI-3S	to be
+002730d	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
+002730e	Mat 6:13	βασιλεία	βασιλεία	N-NSF	kingdom
+002730f	Mat 6:13	καὶ	καί	CONJ	and
+002730g	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
+002730h	Mat 6:13	δύναμις	δύναμις	N-NSF	power
+002730i	Mat 6:13	καὶ	καί	CONJ	and
+002730j	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
+002730k	Mat 6:13	δόξα	δόξα	N-NSF	glory
+002730l	Mat 6:13	εἰς	εἰς	PREP	toward
+002730m	Mat 6:13	τοῦς	ὁ	T-APM	the/this/who
+002730n	Mat 6:13	αἰῶνας	αἰών	N-APM	an age
+002730o	Mat 6:13	ἀμήν.⟧¶	ἀμήν	INJ-HEB	amen
+
+```
 
 ### §2.2 Lemma Modifications
 
