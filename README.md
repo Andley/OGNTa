@@ -62,12 +62,12 @@ For example :
 | OpenGNT_version3_3   | OGNTa |
 | -------------------- | ----- |
 | Δαυείδ, Δαυίδ, Δαβίδ | Δαυίδ |
+| γε μή(γε)            | γε γε |
+| μή μή(γε)            | μή μή |
 | ἔπω, ἐρῶ, εἶπον      | εἶπον |
 | ὅς, ἥ                | ὅς    |
 | ὅστις, ἥτις          | ὅστις |
 | ὕδωρ, ὕδατος         | ὕδωρ  |
-μή	μή(γε)	PRT-N	not ⇒ μή	μή	PRT-N	not
-γε,	μή(γε)	PRT-N	otherwise ⇒ γε,	γε	PRT	indeed
 
 ### §2.3 Code Modifications
 
@@ -77,6 +77,7 @@ For example :
   - ἄρα: CONJ → PRT
   - ἐγγύς: PREP → ADV
   - ὅτι: ADV → CONJ
+  - γε: PRT-N → PRT
 - Nouns:
   - remove -P, -L. -T, -C after Case-Number-Gender
 -  Adjectives
@@ -103,9 +104,9 @@ For example :
 | -------- | --------- | ------------------ | ----------- |
 | 018408   | Mar 1:5   | N-NSF-L            | A-NSF       |
 | 019639   | Mar 3:4   |                    | good        |
+| 021935   | Mar 6:23  |                    | which       |
 | 107119   | Php 2:25  | A-NSN              | A-ASN       |
 | 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
-| 021935   | Mar 6:23  |                    | which       |
 
 
 #### §2.3.4 Code Enhancements

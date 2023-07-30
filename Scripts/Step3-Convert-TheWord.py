@@ -61,10 +61,10 @@ for ol in Lines:
 		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
 		if (re.match(".*¶",x[2])) or (re.match(".*¶</strong>",x[2])) or (re.match(".*¶</em>",x[2])):
 			x[2] = x[2].replace('¶','')
-			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
-			f.write("</br></br></br>")
+			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
+			f.write("</br></br></br> ")
 		else:	
-			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
@@ -130,10 +130,10 @@ for ol in Lines:
 		# TW3 clipboard monitor does not support </br>, use </br> instead 😂
 		if (re.match(".*¶",x[2])) or (re.match(".*¶</strong>",x[2])) or (re.match(".*¶</em>",x[2])):
 			x[2] = x[2].replace('¶','')
-			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
-			f.write("</br></br></br>")
+			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
+			f.write("</br></br></br> ")
 		else:	
-			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
@@ -200,7 +200,7 @@ for ol in Lines:
 		x[2] = re.sub(",","‚",x[2])
 		x[3] = re.sub(",","‚",x[3])
 		x[3] = re.sub(" "," ",x[3])
-		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
+		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
 
 # ---------- 
 f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-WordEQ\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-WordEQ (https://github.com/Andley/OGNTa)")
