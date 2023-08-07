@@ -77,6 +77,7 @@ For example :
   - ἄρα: CONJ → PRT
   - ἐγγύς: PREP → ADV
   - ὅτι: ADV → CONJ
+  - ὅπου: ADV → CONJ
   - γε: PRT-N → PRT
 - Nouns:
   - remove -P, -L. -T, -C after Case-Number-Gender
