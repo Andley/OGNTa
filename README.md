@@ -26,12 +26,12 @@ abridged to the following tab-separated columns:
   - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the Lemma
 
 For example :
-| OGNTsort | Referemce | Greek                         | Lemma   | Code    | IT/TC         |
-| -------- | --------- | ----------------------------- | ------- | ------- | ------------- |
-| 000001   | Mat 1:1   | Βίβλος                        | βίβλος  | N-NSF   | [The] book    |
-| 000172   | 太 1:11   | Βαβυλῶνος <strong>.¶</strong> | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
-| 000382   | Mat 1:23  | ¬Ἰδοὺ                         | ἰδού    | INJ     | look!         |
-| 029617   | Mar 16:20 | <strong>⟦</strong> πάντα      | πᾶς     | A-APN   | all           |
+| OGNTsort | Referemce | Greek       | Lemma   | Code    | IT/TC         |
+| -------- | --------- | ----------- | ------- | ------- | ------------- |
+| 000001   | Mat 1:1   | Βίβλος      | βίβλος  | N-NSF   | [The] book    |
+| 000172   | 太 1:11   | Βαβυλῶνος.¶ | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
+| 000382   | Mat 1:23  | ¬Ἰδοὺ       | ἰδού    | INJ     | look!         |
+| 029617   | Mar 16:20 | ⟦πάντα      | πᾶς     | A-APN   | all           |
 
 
 ## §2 Content Changes

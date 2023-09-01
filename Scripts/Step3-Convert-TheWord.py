@@ -136,7 +136,7 @@ for ol in Lines:
 			f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY>")
 
 # ---------- 
-f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
+f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-RUBY\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
 
 f.close()
 
@@ -203,6 +203,6 @@ for ol in Lines:
 		f.write("<RUBY><ruby><ruby>"+x[2]+"<rt>"+x[3]+"</rt></ruby><rt>"+x[5]+"</rt></ruby><rt>"+x[4]+"</rt></RUBY> ")
 
 # ---------- 
-f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-WordEQ (https://github.com/Andley/OGNTa)")
+f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-WordEQ\nversion.date="+str(todays_date)+"\ndescription=OGNTa-WordEQ (https://github.com/Andley/OGNTa)")
 
 f.close()
