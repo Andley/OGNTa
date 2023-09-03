@@ -50,8 +50,7 @@ f1 = open(outputFile1,'w',encoding="utf_8_sig")
 for line in Lines:
 	x = re.split("\t", line)
 
-
-	x[2] = re.sub(r'([\.,;·])',r' <mark class="pm">\1</mark>',x[2])
+	x[2] = re.sub(r'([\.,;·])',r' <mark class="pm">\1</mark>',x[2])
 	# print (x[2])
 
 	# add emphasis for Verbs
