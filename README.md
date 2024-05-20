@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an abridged and updated version of [OpenGNTOGNT 3.3](https://github.com/eliranwong/OpenGNT). There are two main files:
+This is an abridged and updated version of [OpenGNT(OGNT) 3.3](https://github.com/eliranwong/OpenGNT). There are two main files:
 
 **OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv ([BASE TEXT](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip))
 
