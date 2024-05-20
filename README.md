@@ -14,16 +14,15 @@ abridged to the following tab-separated columns:
 -  OGNTsort = sort numbers of all words of the base text of OGNT.
 -  Referemce = scripture Referemce in Book-Chapter:Verse format.
 -  Greek = Greek text, combination of PMpWord/OGNTa/PMfWord, where:
-   - PMpWord = punctuation mark(s) preceding the main word with `<strong>` tags enclosed;
+   - PMpWord = punctuation mark(s) preceding the main word;
      - `[[` changed to `⟦`
      - `]]` changed to `⟧`
    - OGNTa = Greek word of OGNT in accented form;
-   - PMfWord = punctuation mark(s) following the main word with `<strong>` tags enclosed.
+   - PMfWord = punctuation mark(s) following the main word.
 -  Lemma = Greek word of OGNT in lexical form.
 -  Code  = Morphological Analysis Codes.
 -  IT = context-sensitive English glossess (from Berean Interlinear Bible)
--  TC = context-sensitive Chinese glossess, within which:
-  - `⸂`/`⸃` mark the beginning/ending of additional CUV text that are not aligned to the Lemma
+-  TC = context-sensitive Chinese glossess
 
 For example :
 | OGNTsort | Referemce | Greek       | Lemma   | Code    | IT/TC         |
@@ -69,9 +68,15 @@ For example :
 | ὅστις, ἥτις          | ὅστις |
 | ὕδωρ, ὕδατος         | ὕδωρ  |
 
-### §2.3 Code Modifications
+### §2.3 Punctuation Modifications
 
-#### §2.3.1 General Modifications
+| OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
+| -------- | --------- | ------------------ | ----------- |
+| 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
+
+### §2.4 Morphological Code Modifications
+
+#### §2.4.1 General Modifications
 - Part of Speech:
   - αὐστηρός: P → A
   - ἄρα: CONJ → PRT
@@ -95,11 +100,11 @@ For example :
     - Middle or passive Deponent: N → M
     - Either middle or passive: E → M
     - Passive Deponent: O → P
-- Glosses:    
+- IT/TC Glosses:    
   - remove all occurences of ’ (UNICODE `2019`) and ”(UNICODE `201D`)
 
 
-#### §2.3.2 Specific Modifications
+#### §2.4.2 Specific Modifications
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
 | -------- | --------- | ------------------ | ----------- |
@@ -110,7 +115,7 @@ For example :
 | 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
 
 
-#### §2.3.4 Code Enhancements
+#### §2.4.3 Code Enhancements
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa         |
 | -------- | --------- | ------------------ | ------------- |
