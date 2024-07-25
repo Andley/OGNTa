@@ -20,11 +20,15 @@ f = open(outputFile,'w',encoding='utf_8_sig')
 
 
 for i in range(len(cuvLines)):
-	#print(Lines[i])
 	Lines[i] = re.sub('<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>', r'\1', Lines[i])
-	#print (Lines[i])
-	Lines[i] = re.sub('<rt>(.*?)</rt>', r'\1', Lines[i])
-	ol = Lines[i].strip()+cuvLines[i]
+	Lines[i] = re.sub(' +', ' ', Lines[i])
+	#print(Lines[i])
+	if ("<span class='paragraph'></span>" in Lines[i]):
+		#print("paragraph")
+		Lines[i] = re.sub("<span class='paragraph'></span>","",Lines[i])
+		ol = Lines[i].strip()+cuvLines[i].strip()+"<span class='paragraph'></span>\n"
+	else:
+		ol = Lines[i].strip()+cuvLines[i]
 	f.write(ol)
 	#print (ol)
 
