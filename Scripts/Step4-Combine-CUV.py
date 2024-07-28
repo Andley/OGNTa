@@ -23,15 +23,15 @@ for i in range(len(cuvLines)):
 	Lines[i] = re.sub('<RUBY><ruby><ruby>(.*?)<rt>(.*?)</rt></ruby><rt>(.*?)</rt></ruby><rt>(.*?)</rt></RUBY>', r'\1', Lines[i])
 	Lines[i] = re.sub(' +', ' ', Lines[i])
 	#print(Lines[i])
-	if ("<span class='paragraph'></span>" in Lines[i]):
+	if ("<mark class='paragraph'></mark>" in Lines[i]):
 		#print("paragraph")
-		Lines[i] = re.sub("<span class='paragraph'></span>","",Lines[i])
-		ol = Lines[i].strip()+cuvLines[i].strip()+"<span class='paragraph'></span>\n"
+		Lines[i] = re.sub("<mark class='paragraph'></mark>","",Lines[i])
+		ol = Lines[i].strip()+cuvLines[i].strip()+"<mark class='paragraph'></mark>\n"
 	else:
 		ol = Lines[i].strip()+cuvLines[i]
 	f.write(ol)
 	#print (ol)
 
-f.write("\n\n\nlang=grc\n notags=1\nshort.title=OGNTa+CUV\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby+CUV (https://github.com/Andley/OGNTa)")
+f.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa+CUV\nversion.major="+str(todays_date.year)+"\nversion.minor="+str(todays_date.month)+str(todays_date.day)+"\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby+CUV (https://github.com/Andley/OGNTa)")
 
 f.close()

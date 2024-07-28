@@ -92,25 +92,30 @@ for ol in Lines:
 			f2.write("\n"+x[1]+" ")
 
 		# ---------- remove carriage-return at end-of-line
-		x[11] = re.sub("\n","",x[11])
+		x[11] = re.sub("\n","",x[12])
 
 		# -------------- poetry
 		if (x[2] == "¬"): 
-			x[2] = "<span class='poetry'></span> "
+			x[2] = " <mark class='poetry'></mark> "
 		# ------------- punctuation marks
-		if (re.match("[\.,;·]",x[4])):
-			x[4] = " <span class='punctuation'>"+x[4]+"</span> "
+		if (re.match("[\.,;·]",x[4])):
+			x[4] = " <mark class='punctuation'>"+x[4]+"</mark> "
 		# ------------- paragraph
 		if (x[5] == "¶"):
-			x[5] = "<span class='paragraph'></span> "
+			x[5] = " <mark class='paragraph'></mark> "
 		
 
-		f1.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[8]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
-		f2.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[9]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
+		# ------------- OT quotation
+		if (x[10] == "+"):
+			f1.write(x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[8]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5]+"</strong>")
+			f2.write(x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[9]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5]+"</strong>")
+		else:
+			f1.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[8]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
+			f2.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[9]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
 
 # ---------- 
 f1.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
-f2.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
+f2.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
 
 f1.close()
 f2.close()

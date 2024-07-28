@@ -2,61 +2,37 @@
 
 ## Description
 
-This is an abridged and updated version of [OpenGNT(OGNT) 3.3](https://github.com/eliranwong/OpenGNT). There are two main files:
+This is an abridged and updated version of [OpenGNT(OGNT) 3.3](https://github.com/eliranwong/OpenGNT). 
 
-**OGNTa.txt** = the main file of OGNTa Project, abridged and updated from OpenGNT_version3_3.csv ([BASE TEXT](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip))
+The main file is **OGNTa.txt** with the following columns:  
 
-**OGNTa-TC.txt** = OGNTa.txt with Traditional Chinese glosses adapted from [OpenGNT_interlinear_CUVtc.csv](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_interlinear_CUVtc.csv.zip)
+`OGNTsortBCV	Pre	OGNTa	PM	Post	Lemma	RMAC	Gloss	中文	OTquotation	LN	sn`  
 
-## §1 Structure Changes
-
-abridged to the following tab-separated columns:
--  OGNTsort = sort numbers of all words of the base text of OGNT.
--  Referemce = scripture Referemce in Book-Chapter:Verse format.
--  Greek = Greek text, combination of PMpWord/OGNTa/PMfWord, where:
-   - PMpWord = punctuation mark(s) preceding the main word;
-     - `[[` changed to `⟦`
-     - `]]` changed to `⟧`
-   - OGNTa = Greek word of OGNT in accented form;
-   - PMfWord = punctuation mark(s) following the main word.
--  Lemma = Greek word of OGNT in lexical form.
--  Code  = Morphological Analysis Codes.
--  IT = context-sensitive English glossess (from Berean Interlinear Bible)
--  TC = context-sensitive Chinese glossess
-
-For example :
-| OGNTsort | Referemce | Greek       | Lemma   | Code    | IT/TC         |
-| -------- | --------- | ----------- | ------- | ------- | ------------- |
-| 000001   | Mat 1:1   | Βίβλος      | βίβλος  | N-NSF   | [The] book    |
-| 000172   | 太 1:11   | Βαβυλῶνος.¶ | Βαβυλών | N-GSF-L | 巴比倫⸂的時候 |
-| 000382   | Mat 1:23  | ¬Ἰδοὺ       | ἰδού    | INJ     | look!         |
-| 029617   | Mar 16:20 | ⟦πάντα      | πᾶς     | A-APN   | all           |
+where all columns adapted from OpenGNT_version3_3.csv ([BASE TEXT](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) except `中文` column adapted from [macula-greek-SBLGNT.tsv](https://github.com/Clear-Bible/macula-greek/blob/main/SBLGNT/tsv/macula-greek-SBLGNT.tsv).
 
 
-## §2 Content Changes
-### §2.1 Text Additions
+## Changes made
+### §1 Text Additions
 
 ```
-
-002730a	Mat 6:13	⟦ὅτι	ὅτι	CONJ	that/since
-002730b	Mat 6:13	σοῦ	σύ	P-2GS	you
-002730c	Mat 6:13	ἐστιν	εἰμί	V-PAI-3S	to be
-002730d	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
-002730e	Mat 6:13	βασιλεία	βασιλεία	N-NSF	kingdom
-002730f	Mat 6:13	καὶ	καί	CONJ	and
-002730g	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
-002730h	Mat 6:13	δύναμις	δύναμις	N-NSF	power
-002730i	Mat 6:13	καὶ	καί	CONJ	and
-002730j	Mat 6:13	ἡ	ὁ	T-NSF	the/this/who
-002730k	Mat 6:13	δόξα	δόξα	N-NSF	glory
-002730l	Mat 6:13	εἰς	εἰς	PREP	toward
-002730m	Mat 6:13	τοῦς	ὁ	T-APM	the/this/who
-002730n	Mat 6:13	αἰῶνας	αἰών	N-APM	an age
-002730o	Mat 6:13	ἀμήν.⟧¶	ἀμήν	INJ-HEB	amen
-
+002730a	Mat 6:13		⟦ὅτι			ὅτι	CONJ	that/since	因為	-		
+002730b	Mat 6:13		σοῦ			σύ	P-2GS	you	你的	-		
+002730c	Mat 6:13		ἐστιν			εἰμί	V-PAI-3S	to be	是/在/有	-		
+002730d	Mat 6:13		ἡ			ὁ	T-NSF	the/this/who	-	-		
+002730e	Mat 6:13		βασιλεία			βασιλεία	N-NSF	kingdom	國度	-		
+002730f	Mat 6:13		καὶ			καί	CONJ	and	-	-		
+002730g	Mat 6:13		ἡ			ὁ	T-NSF	the/this/who	-	-		
+002730h	Mat 6:13		δύναμις			δύναμις	N-NSF	power	權柄	-		
+002730i	Mat 6:13		καὶ			καί	CONJ	and	-	-		
+002730j	Mat 6:13		ἡ			ὁ	T-NSF	the/this/who	-	-		
+002730k	Mat 6:13		δόξα			δόξα	N-NSF	glory	榮耀	-		
+002730l	Mat 6:13		εἰς			εἰς	PREP	toward	直到	-		
+002730m	Mat 6:13		τοῦς			ὁ	T-APM	the/this/who	-	-		
+002730n	Mat 6:13		αἰῶνας			αἰών	N-APM	an age	永遠	-		
+002730o	Mat 6:13		ἀμήν.⟧		¶	ἀμήν	INJ-HEB	amen	阿們	-		
 ```
 
-### §2.2 Lemma Modifications
+### §2 Lemma Modifications
 
 | OpenGNT_version3_3   | OGNTa |
 | -------------------- | ----- |
@@ -68,15 +44,15 @@ For example :
 | ὅστις, ἥτις          | ὅστις |
 | ὕδωρ, ὕδατος         | ὕδωρ  |
 
-### §2.3 Punctuation Modifications
+### §3 Punctuation Modifications
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
 | -------- | --------- | ------------------ | ----------- |
 | 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
 
-### §2.4 Morphological Code Modifications
+### §4 RMAC Modifications
 
-#### §2.4.1 General Modifications
+#### §4.1 General
 - Part of Speech:
   - αὐστηρός: P → A
   - ἄρα: CONJ → PRT
@@ -104,18 +80,14 @@ For example :
   - remove all occurences of ’ (UNICODE `2019`) and ”(UNICODE `201D`)
 
 
-#### §2.4.2 Specific Modifications
+#### §4.2 Corrections
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
 | -------- | --------- | ------------------ | ----------- |
 | 018408   | Mar 1:5   | N-NSF-L            | A-NSF       |
-| 019639   | Mar 3:4   |                    | good        |
-| 021935   | Mar 6:23  |                    | which       |
-| 107119   | Php 2:25  | A-NSN              | A-ASN       |
-| 122411   | 1Pe 1:6   | ἀγαλλιᾶσθε         | ἀγαλλιᾶσθε, |
 
 
-#### §2.4.3 Code Enhancements
+#### §4.3 Enhancements
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa         |
 | -------- | --------- | ------------------ | ------------- |
@@ -225,7 +197,9 @@ For example :
 | 126387   | 1Jo 4:2   | V-PAI-2P           | V-PAI⁞PAM-2P  |
 
 
+### §5 Gloss Modifications
 
+Chinese glosses are based upon [macula-greek-SBLGNT.tsv](https://github.com/Clear-Bible/macula-greek/blob/main/SBLGNT/tsv/macula-greek-SBLGNT.tsv) with mumerous changes.
 
 
 
@@ -234,13 +208,15 @@ For example :
 ## License :
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">OGNTa Project by Andley Chang is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/eliranwong/OpenGNT" rel="dct:source">https://github.com/eliranwong/OpenGNT</a>.
 
 ---
 
 ## Attribution :
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Greek New Testament Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://marvel.bible" property="cc:attributionName" rel="cc:attributionURL">Eliran Wong</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">macula-greek</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://clear.bible" property="cc:attributionName" rel="cc:attributionURL">Clear-Bible</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 
 
