@@ -4,8 +4,13 @@ import re
 
 ####### —————————————— Processing OGNTa ——————————————
 
+<<<<<<< HEAD
 inputFile = "../OGNTa.txt"
 outputFile1 = "../tmp/OGNTa-marked.txt"
+=======
+inputFile = "./OGNTa.txt"
+outputFile1 = "./tmp/OGNTa-marked.txt"
+>>>>>>> da8c3dc86bf37656ed17846fd1f9e180fcde9a5b
 
 f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()
