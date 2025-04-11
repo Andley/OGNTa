@@ -6,15 +6,9 @@ This is an abridged and updated version of [OpenGNT(OGNT) 3.3](https://github.co
 
 The main file is **OGNTa.txt** with the following columns:  
 
-<<<<<<< HEAD
 `OGNTsort BCV	Pre	OGNTa	PM	Post	Lemma	RMAC	Gloss	中文	OTquotation	LN	sn`  
 
 where all columns adapted from OpenGNT_version3_3.csv ([BASE TEXT](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) except `中文` column adapted from [Macula Greek SBLGNT](https://github.com/Clear-Bible/macula-greek/blob/main/SBLGNT/tsv/macula-greek-SBLGNT.tsv) and [FHL 希中新約逐字對照](https://bible.fhl.net/annouce/annouce440.html)
-=======
-`OGNTsortBCV	Pre	OGNTa	PM	Post	Lemma	RMAC	Gloss	中文	OTquotation	LN	sn`  
-
-where all columns adapted from OpenGNT_version3_3.csv ([BASE TEXT](https://github.com/eliranwong/OpenGNT/blob/master/OpenGNT_BASE_TEXT.zip)) except `中文` column adapted from [macula-greek-SBLGNT.tsv](https://github.com/Clear-Bible/macula-greek/blob/main/SBLGNT/tsv/macula-greek-SBLGNT.tsv).
->>>>>>> da8c3dc86bf37656ed17846fd1f9e180fcde9a5b
 
 
 ## Changes made

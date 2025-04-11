@@ -98,21 +98,13 @@ for ol in Lines:
 			f2.write("\n"+x[1]+" ")
 
 		# ---------- remove carriage-return at end-of-line
-<<<<<<< HEAD
 		x[12] = re.sub("\n","",x[12])
-=======
-		x[11] = re.sub("\n","",x[12])
->>>>>>> da8c3dc86bf37656ed17846fd1f9e180fcde9a5b
 
 		# -------------- poetry
 		if (x[2] == "¬"): 
 			x[2] = " <mark class='poetry'></mark> "
 		# ------------- punctuation marks
-<<<<<<< HEAD
 		if (re.match("[.,;·—]",x[4])):
-=======
-		if (re.match("[\.,;·]",x[4])):
->>>>>>> da8c3dc86bf37656ed17846fd1f9e180fcde9a5b
 			x[4] = " <mark class='punctuation'>"+x[4]+"</mark> "
 		# ------------- paragraph
 		if (x[5] == "¶"):
@@ -121,7 +113,6 @@ for ol in Lines:
 
 		# ------------- OT quotation
 		if (x[10] == "+"):
-<<<<<<< HEAD
 			f1.write(re.sub("  "," ", x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[8]+"</rt></ruby><rt>"+x[6]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY></strong>"+x[4]+x[5]))
 			f2.write(re.sub("  "," ", x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[9]+"</rt></ruby><rt>"+x[6]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY></strong>"+x[4]+x[5]))
 
@@ -132,13 +123,6 @@ for ol in Lines:
 			f2.write(re.sub("  "," ", x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[9]+"</rt></ruby><rt>"+x[6]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5]))
 			#f1.write(re.sub('  ','', x[2]+' <RUBY><ruby><ruby>'+x[3]+'<rt>'+x[8]+'</rt></ruby><rt>'+x[6]+'∙'+x[12]+'</rt></ruby><rt>'+x[7]+'</rt></RUBY>'+x[4]+x[5]))
 			#f2.write(re.sub('  ','', x[2]+' <RUBY><ruby><ruby>'+x[3]+'<rt>'+x[9]+'</rt></ruby><rt>'+x[6]+'∙'+x[12]+'</rt></ruby><rt>'+x[7]+'</rt></RUBY>'+x[4]+x[5]))
-=======
-			f1.write(x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[8]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5]+"</strong>")
-			f2.write(x[2]+" <strong><RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[9]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5]+"</strong>")
-		else:
-			f1.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[8]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
-			f2.write(x[2]+" <RUBY><ruby><ruby>"+x[3]+"<rt>"+x[6]+"</rt></ruby><rt>"+x[9]+"</rt></ruby><rt>"+x[7]+"</rt></RUBY>"+x[4]+x[5])
->>>>>>> da8c3dc86bf37656ed17846fd1f9e180fcde9a5b
 
 # ---------- 
 f1.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
