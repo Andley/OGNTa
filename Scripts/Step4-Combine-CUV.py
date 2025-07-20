@@ -4,9 +4,9 @@ from datetime import date
 todays_date = date.today()
 
 
-inputFile = "../tmp/OGNTa-Ruby.nt"
-cuvFile = "../CUV.txt"
-outputFile = "../tmp/OGNTa+CUV.nt"
+inputFile = "./tmp/OGNTa-Ruby.nt"
+cuvFile = "./CUV.txt"
+outputFile = "./tmp/OGNTa+CUV.nt"
 
 f = open(inputFile,'r',encoding="utf_8_sig")
 Lines = f.readlines()

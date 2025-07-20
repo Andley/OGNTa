@@ -141,7 +141,7 @@ for ol in Lines:
 # ---------- 
 f1.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-Ruby (https://github.com/Andley/OGNTa)")
 f2.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-TC-Ruby (https://github.com/Andley/OGNTa)")
-f3.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-TC-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-All-Ruby (https://github.com/Andley/OGNTa)")
+f3.write("\n\n\nlang=grc\nnotags=1\nshort.title=OGNTa-All-Ruby\nversion.date="+str(todays_date)+"\ndescription=OGNTa-All-Ruby (https://github.com/Andley/OGNTa)")
 
 f1.close()
 f2.close()

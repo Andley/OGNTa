@@ -44,6 +44,10 @@ where all columns adapted from OpenGNT_version3_3.csv ([BASE TEXT](https://githu
 | ὅστις, ἥτις          | ὅστις |
 | ὕδωρ, ὕδατος         | ὕδωρ  |
 
+`εἶπον\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t(.*?)\t02036\n` ⇒ `λέγω\t$1\t$2\t$3\t$4\t$5\t03004\n`
+
+`δεῖ 01210`  ⇒ `δεῖ 01163`
+
 ### §3 Punctuation Modifications
 
 | OGNTsort | Referemce | OpenGNT_version3_3 | OGNTa       |
